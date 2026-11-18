@@ -1,0 +1,485 @@
+{
+  "generated_at": "2026-11-18T06:24:17.440963+00:00",
+  "script": "training/score_checkpoint.py",
+  "config": {
+    "model_type": "whisper",
+    "checkpoint": "/home/hatch/workspace/tmp-smoke/whisper-lora-smoke",
+    "base_model": "openai/whisper-tiny",
+    "manifest": "/home/hatch/workspace/tmp-smoke/v0-slice-50.jsonl",
+    "manifest_sha256": "04b1a7a48abe6b2a3a943c20b568068f0bd5787b554726323a14b4850271dfa5",
+    "n_clips_scored": 50,
+    "limit": null,
+    "audio_dir": "/home/hatch/workspace/tmp-smoke/v0-slice-audio",
+    "hypotheses_file": "training/results/smoke-whisper-tiny-2026-11-18.hypotheses.jsonl",
+    "convert_devanagari_numerals": false,
+    "steps_trained": 300,
+    "train_config": {
+      "generated_at": "2026-11-18T06:17:51.341780+00:00",
+      "script": "training/train_whisper_lora.py",
+      "model": "openai/whisper-tiny",
+      "config_file": "/home/hatch/workspace/nepali-speech/training/configs/whisper_lora.yaml",
+      "train_manifest": "/home/hatch/workspace/tmp-smoke/train-smoke.jsonl",
+      "train_manifest_sha256": "f5d6ec6fa133fcb47ea893b3ad55c73777825ea717e6c924ce73ca857c9798ad",
+      "n_clips_used": 300,
+      "max_clips_arg": null,
+      "max_steps": 300,
+      "batch_size": 1,
+      "gradient_accumulation_steps": 1,
+      "learning_rate": 0.0001,
+      "gradient_checkpointing": false,
+      "fp16": false,
+      "bf16": false,
+      "num_workers": 0,
+      "seed": 42,
+      "lora": {
+        "r": 8,
+        "alpha": 16,
+        "dropout": 0.05,
+        "target_modules": [
+          "q_proj",
+          "v_proj"
+        ]
+      },
+      "training": {
+        "num_train_epochs": 3,
+        "warmup_ratio": 0.03,
+        "logging_steps": 10,
+        "save_steps": 100
+      },
+      "normalisation": {
+        "rule": "NFC + strip + collapse whitespace (benchmark/evaluate.py::normalize_text, via training/normalize.py)",
+        "convert_devanagari_numerals": false
+      },
+      "augmentation": {
+        "speed_factors": null,
+        "noise_wav": null,
+        "noise_snr_db": 10.0,
+        "phone_codec": false,
+        "note": "Augmentation quality is UNVALIDATED until real noisy data exists (see training/README.md)."
+      },
+      "versions": {
+        "torch": "2.15.0+cpu",
+        "transformers": "5.23.0",
+        "peft": "0.21.3",
+        "accelerate": "1.16.0"
+      },
+      "argv": [
+        "training/train_whisper_lora.py",
+        "--train-manifest",
+        "/home/hatch/workspace/tmp-smoke/train-smoke.jsonl",
+        "--output-dir",
+        "/home/hatch/workspace/tmp-smoke/whisper-lora-smoke",
+        "--audio-dir",
+        "/home/hatch/workspace/tmp-smoke/train-smoke-audio",
+        "--model",
+        "openai/whisper-tiny",
+        "--max-steps",
+        "300",
+        "--batch-size",
+        "1"
+      ],
+      "steps_trained": 300
+    }
+  },
+  "results": {
+    "n_clips": 50,
+    "n_hypotheses": 50,
+    "missing_hypotheses": 0,
+    "overall": {
+      "n": 50,
+      "wer": 1.384469696969697,
+      "cer": 1.465666474321985,
+      "wer_errors": 731,
+      "wer_ref_words": 528,
+      "cer_errors": 5080,
+      "cer_ref_chars": 3466,
+      "substitutions": 262,
+      "deletions": 264,
+      "insertions": 205
+    },
+    "slices": {
+      "gender": {
+        "male": {
+          "n": 25,
+          "wer": 1.3766519823788546,
+          "cer": 1.2043772127454135,
+          "wer_errors": 625,
+          "wer_ref_words": 454,
+          "cer_errors": 3742,
+          "cer_ref_chars": 3107,
+          "substitutions": 211,
+          "deletions": 241,
+          "insertions": 173
+        },
+        "unknown": {
+          "n": 25,
+          "wer": 1.4324324324324325,
+          "cer": 3.7270194986072425,
+          "wer_errors": 106,
+          "wer_ref_words": 74,
+          "cer_errors": 1338,
+          "cer_ref_chars": 359,
+          "substitutions": 51,
+          "deletions": 23,
+          "insertions": 32
+        }
+      },
+      "region": {
+        "unknown": {
+          "n": 50,
+          "wer": 1.384469696969697,
+          "cer": 1.465666474321985,
+          "wer_errors": 731,
+          "wer_ref_words": 528,
+          "cer_errors": 5080,
+          "cer_ref_chars": 3466,
+          "substitutions": 262,
+          "deletions": 264,
+          "insertions": 205
+        }
+      },
+      "quality": {
+        "clean": {
+          "n": 50,
+          "wer": 1.384469696969697,
+          "cer": 1.465666474321985,
+          "wer_errors": 731,
+          "wer_ref_words": 528,
+          "cer_errors": 5080,
+          "cer_ref_chars": 3466,
+          "substitutions": 262,
+          "deletions": 264,
+          "insertions": 205
+        }
+      },
+      "source": {
+        "fleurs": {
+          "n": 25,
+          "wer": 1.3766519823788546,
+          "cer": 1.2043772127454135,
+          "wer_errors": 625,
+          "wer_ref_words": 454,
+          "cer_errors": 3742,
+          "cer_ref_chars": 3107,
+          "substitutions": 211,
+          "deletions": 241,
+          "insertions": 173
+        },
+        "slr54": {
+          "n": 25,
+          "wer": 1.4324324324324325,
+          "cer": 3.7270194986072425,
+          "wer_errors": 106,
+          "wer_ref_words": 74,
+          "cer_errors": 1338,
+          "cer_ref_chars": 359,
+          "substitutions": 51,
+          "deletions": 23,
+          "insertions": 32
+        }
+      }
+    },
+    "per_clip": [
+      {
+        "clip_id": "fleurs-ne_np-test-10022685377830883165",
+        "speaker": "unknown",
+        "wer": 1.6,
+        "cer": 1.34
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10042159027559958370",
+        "speaker": "unknown",
+        "wer": 2.4285714285714284,
+        "cer": 0.8260869565217391
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10077924722244770965",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.0857142857142856
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10153402529052213066",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 0.9433962264150944
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10155482881257597498",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.8285714285714285
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10159955177531491607",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 2.5396825396825395
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-1016865647216470652",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.2403100775193798
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10173058289132403552",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 0.9090909090909091
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10223335885914994505",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.0517241379310345
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10238937973437112566",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.1691176470588236
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10245303993118215089",
+        "speaker": "unknown",
+        "wer": 1.064516129032258,
+        "cer": 0.7596153846153846
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10293145480095617430",
+        "speaker": "unknown",
+        "wer": 4.857142857142857,
+        "cer": 3.418181818181818
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10307131837778198638",
+        "speaker": "unknown",
+        "wer": 3.0,
+        "cer": 1.1418918918918919
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10309098473613909748",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 0.8205128205128205
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10310589866877402849",
+        "speaker": "unknown",
+        "wer": 1.0909090909090908,
+        "cer": 0.7714285714285715
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10310834517531786407",
+        "speaker": "unknown",
+        "wer": 2.260869565217391,
+        "cer": 1.3577235772357723
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10350353474777078920",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 0.882051282051282
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10364434491474528132",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.52
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10378257327746320452",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.178294573643411
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10387789025012893515",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 2.267605633802817
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10439680294348064918",
+        "speaker": "unknown",
+        "wer": 0.9473684210526315,
+        "cer": 1.143939393939394
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10450448077917867406",
+        "speaker": "unknown",
+        "wer": 2.611111111111111,
+        "cer": 1.1935483870967742
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10462338528708734121",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.0573770491803278
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10575105421892854376",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.5045871559633028
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10621624116913369261",
+        "speaker": "unknown",
+        "wer": 1.0769230769230769,
+        "cer": 1.1604938271604939
+      },
+      {
+        "clip_id": "slr54-1583be67a0",
+        "speaker": "090ea",
+        "wer": 1.6666666666666667,
+        "cer": 1.6
+      },
+      {
+        "clip_id": "slr54-1e2fe75040",
+        "speaker": "44345",
+        "wer": 1.0,
+        "cer": 1.3333333333333333
+      },
+      {
+        "clip_id": "slr54-1af7a35d4e",
+        "speaker": "b7116",
+        "wer": 1.0,
+        "cer": 0.7333333333333333
+      },
+      {
+        "clip_id": "slr54-1c8bb18eb0",
+        "speaker": "2001f",
+        "wer": 5.0,
+        "cer": 4.8
+      },
+      {
+        "clip_id": "slr54-132a066ccc",
+        "speaker": "d514c",
+        "wer": 1.0,
+        "cer": 1.3333333333333333
+      },
+      {
+        "clip_id": "slr54-1f68aacc14",
+        "speaker": "dfb01",
+        "wer": 1.0,
+        "cer": 1.3125
+      },
+      {
+        "clip_id": "slr54-1a250981aa",
+        "speaker": "68f0f",
+        "wer": 1.0,
+        "cer": 14.166666666666666
+      },
+      {
+        "clip_id": "slr54-1887e20503",
+        "speaker": "d863b",
+        "wer": 1.0,
+        "cer": 9.5
+      },
+      {
+        "clip_id": "slr54-1eba1c9a95",
+        "speaker": "bf591",
+        "wer": 1.0,
+        "cer": 10.0
+      },
+      {
+        "clip_id": "slr54-103ada9ba6",
+        "speaker": "2ddbf",
+        "wer": 1.0,
+        "cer": 1.2
+      },
+      {
+        "clip_id": "slr54-19295f7602",
+        "speaker": "0bd28",
+        "wer": 1.3333333333333333,
+        "cer": 2.4
+      },
+      {
+        "clip_id": "slr54-122826f855",
+        "speaker": "f4b4a",
+        "wer": 1.0,
+        "cer": 0.76
+      },
+      {
+        "clip_id": "slr54-1e7b92d32d",
+        "speaker": "dfb01",
+        "wer": 1.0,
+        "cer": 1.7692307692307692
+      },
+      {
+        "clip_id": "slr54-1bfbc005d9",
+        "speaker": "b7e01",
+        "wer": 3.0,
+        "cer": 2.7142857142857144
+      },
+      {
+        "clip_id": "slr54-1eb0a0f36f",
+        "speaker": "b4e60",
+        "wer": 2.0,
+        "cer": 1.2941176470588236
+      },
+      {
+        "clip_id": "slr54-1492245d07",
+        "speaker": "a5793",
+        "wer": 1.0,
+        "cer": 1.0
+      },
+      {
+        "clip_id": "slr54-1eed607c79",
+        "speaker": "3e9ed",
+        "wer": 1.0,
+        "cer": 0.9
+      },
+      {
+        "clip_id": "slr54-1993f4c92c",
+        "speaker": "d514c",
+        "wer": 1.0,
+        "cer": 5.666666666666667
+      },
+      {
+        "clip_id": "slr54-1d35c1b249",
+        "speaker": "3e9ed",
+        "wer": 1.0,
+        "cer": 7.904761904761905
+      },
+      {
+        "clip_id": "slr54-14cf33b92a",
+        "speaker": "a5793",
+        "wer": 1.0,
+        "cer": 8.5
+      },
+      {
+        "clip_id": "slr54-1b3bc34ed4",
+        "speaker": "0bd28",
+        "wer": 1.0,
+        "cer": 0.8888888888888888
+      },
+      {
+        "clip_id": "slr54-1a5b64912e",
+        "speaker": "1df77",
+        "wer": 5.666666666666667,
+        "cer": 3.4375
+      },
+      {
+        "clip_id": "slr54-134cd7f9fa",
+        "speaker": "a893c",
+        "wer": 1.0,
+        "cer": 0.75
+      },
+      {
+        "clip_id": "slr54-17e8f815ca",
+        "speaker": "bf591",
+        "wer": 1.0,
+        "cer": 0.6153846153846154
+      },
+      {
+        "clip_id": "slr54-103447f91b",
+        "speaker": "c06a7",
+        "wer": 1.0,
+        "cer": 1.0909090909090908
+      }
+    ]
+  }
+}

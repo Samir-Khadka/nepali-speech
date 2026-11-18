@@ -1,0 +1,419 @@
+{
+  "generated_at": "2026-11-18T06:26:52.252118+00:00",
+  "script": "training/score_checkpoint.py",
+  "config": {
+    "model_type": "whisper",
+    "checkpoint": "/home/hatch/workspace/tmp-smoke/base-only",
+    "base_model": "openai/whisper-tiny",
+    "manifest": "/home/hatch/workspace/tmp-smoke/v0-slice-50.jsonl",
+    "manifest_sha256": "04b1a7a48abe6b2a3a943c20b568068f0bd5787b554726323a14b4850271dfa5",
+    "n_clips_scored": 50,
+    "limit": null,
+    "audio_dir": "/home/hatch/workspace/tmp-smoke/v0-slice-audio",
+    "hypotheses_file": "training/results/base-whisper-tiny-2026-11-18.hypotheses.jsonl",
+    "convert_devanagari_numerals": false,
+    "steps_trained": null,
+    "train_config": null
+  },
+  "results": {
+    "n_clips": 50,
+    "n_hypotheses": 50,
+    "missing_hypotheses": 0,
+    "overall": {
+      "n": 50,
+      "wer": 1.3200757575757576,
+      "cer": 1.377668782458165,
+      "wer_errors": 697,
+      "wer_ref_words": 528,
+      "cer_errors": 4775,
+      "cer_ref_chars": 3466,
+      "substitutions": 440,
+      "deletions": 88,
+      "insertions": 169
+    },
+    "slices": {
+      "gender": {
+        "male": {
+          "n": 25,
+          "wer": 1.3105726872246697,
+          "cer": 1.3018989378822015,
+          "wer_errors": 595,
+          "wer_ref_words": 454,
+          "cer_errors": 4045,
+          "cer_ref_chars": 3107,
+          "substitutions": 377,
+          "deletions": 77,
+          "insertions": 141
+        },
+        "unknown": {
+          "n": 25,
+          "wer": 1.3783783783783783,
+          "cer": 2.033426183844011,
+          "wer_errors": 102,
+          "wer_ref_words": 74,
+          "cer_errors": 730,
+          "cer_ref_chars": 359,
+          "substitutions": 63,
+          "deletions": 11,
+          "insertions": 28
+        }
+      },
+      "region": {
+        "unknown": {
+          "n": 50,
+          "wer": 1.3200757575757576,
+          "cer": 1.377668782458165,
+          "wer_errors": 697,
+          "wer_ref_words": 528,
+          "cer_errors": 4775,
+          "cer_ref_chars": 3466,
+          "substitutions": 440,
+          "deletions": 88,
+          "insertions": 169
+        }
+      },
+      "quality": {
+        "clean": {
+          "n": 50,
+          "wer": 1.3200757575757576,
+          "cer": 1.377668782458165,
+          "wer_errors": 697,
+          "wer_ref_words": 528,
+          "cer_errors": 4775,
+          "cer_ref_chars": 3466,
+          "substitutions": 440,
+          "deletions": 88,
+          "insertions": 169
+        }
+      },
+      "source": {
+        "fleurs": {
+          "n": 25,
+          "wer": 1.3105726872246697,
+          "cer": 1.3018989378822015,
+          "wer_errors": 595,
+          "wer_ref_words": 454,
+          "cer_errors": 4045,
+          "cer_ref_chars": 3107,
+          "substitutions": 377,
+          "deletions": 77,
+          "insertions": 141
+        },
+        "slr54": {
+          "n": 25,
+          "wer": 1.3783783783783783,
+          "cer": 2.033426183844011,
+          "wer_errors": 102,
+          "wer_ref_words": 74,
+          "cer_errors": 730,
+          "cer_ref_chars": 359,
+          "substitutions": 63,
+          "deletions": 11,
+          "insertions": 28
+        }
+      }
+    },
+    "per_clip": [
+      {
+        "clip_id": "fleurs-ne_np-test-10022685377830883165",
+        "speaker": "unknown",
+        "wer": 1.6,
+        "cer": 1.09
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10042159027559958370",
+        "speaker": "unknown",
+        "wer": 1.2857142857142858,
+        "cer": 1.062111801242236
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10077924722244770965",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.8285714285714285
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10153402529052213066",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 0.9433962264150944
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10155482881257597498",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.8285714285714285
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10159955177531491607",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 0.9682539682539683
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-1016865647216470652",
+        "speaker": "unknown",
+        "wer": 1.0526315789473684,
+        "cer": 0.9534883720930233
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10173058289132403552",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.0
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10223335885914994505",
+        "speaker": "unknown",
+        "wer": 1.1875,
+        "cer": 1.1379310344827587
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10238937973437112566",
+        "speaker": "unknown",
+        "wer": 1.7777777777777777,
+        "cer": 1.0735294117647058
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10245303993118215089",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.0384615384615385
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10293145480095617430",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 0.9090909090909091
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10307131837778198638",
+        "speaker": "unknown",
+        "wer": 1.3636363636363635,
+        "cer": 1.25
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10309098473613909748",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.0
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10310589866877402849",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 1.0
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10310834517531786407",
+        "speaker": "unknown",
+        "wer": 1.0869565217391304,
+        "cer": 1.008130081300813
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10350353474777078920",
+        "speaker": "unknown",
+        "wer": 1.4444444444444444,
+        "cer": 1.1076923076923078
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10364434491474528132",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 0.95
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10378257327746320452",
+        "speaker": "unknown",
+        "wer": 1.2941176470588236,
+        "cer": 1.0465116279069768
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10387789025012893515",
+        "speaker": "unknown",
+        "wer": 1.4444444444444444,
+        "cer": 0.9295774647887324
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10439680294348064918",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 0.9772727272727273
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10450448077917867406",
+        "speaker": "unknown",
+        "wer": 2.4444444444444446,
+        "cer": 0.8903225806451613
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10462338528708734121",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 0.9426229508196722
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10575105421892854376",
+        "speaker": "unknown",
+        "wer": 3.6842105263157894,
+        "cer": 5.201834862385321
+      },
+      {
+        "clip_id": "fleurs-ne_np-test-10621624116913369261",
+        "speaker": "unknown",
+        "wer": 1.0,
+        "cer": 3.259259259259259
+      },
+      {
+        "clip_id": "slr54-1583be67a0",
+        "speaker": "090ea",
+        "wer": 2.3333333333333335,
+        "cer": 2.4
+      },
+      {
+        "clip_id": "slr54-1e2fe75040",
+        "speaker": "44345",
+        "wer": 1.0,
+        "cer": 1.2666666666666666
+      },
+      {
+        "clip_id": "slr54-1af7a35d4e",
+        "speaker": "b7116",
+        "wer": 1.0,
+        "cer": 0.9333333333333333
+      },
+      {
+        "clip_id": "slr54-1c8bb18eb0",
+        "speaker": "2001f",
+        "wer": 2.0,
+        "cer": 1.7
+      },
+      {
+        "clip_id": "slr54-132a066ccc",
+        "speaker": "d514c",
+        "wer": 1.0,
+        "cer": 1.7777777777777777
+      },
+      {
+        "clip_id": "slr54-1f68aacc14",
+        "speaker": "dfb01",
+        "wer": 1.0,
+        "cer": 0.875
+      },
+      {
+        "clip_id": "slr54-1a250981aa",
+        "speaker": "68f0f",
+        "wer": 1.3333333333333333,
+        "cer": 1.4166666666666667
+      },
+      {
+        "clip_id": "slr54-1887e20503",
+        "speaker": "d863b",
+        "wer": 1.3333333333333333,
+        "cer": 1.5555555555555556
+      },
+      {
+        "clip_id": "slr54-1eba1c9a95",
+        "speaker": "bf591",
+        "wer": 1.0,
+        "cer": 1.1764705882352942
+      },
+      {
+        "clip_id": "slr54-103ada9ba6",
+        "speaker": "2ddbf",
+        "wer": 1.6666666666666667,
+        "cer": 2.1
+      },
+      {
+        "clip_id": "slr54-19295f7602",
+        "speaker": "0bd28",
+        "wer": 2.0,
+        "cer": 2.8
+      },
+      {
+        "clip_id": "slr54-122826f855",
+        "speaker": "f4b4a",
+        "wer": 1.0,
+        "cer": 0.96
+      },
+      {
+        "clip_id": "slr54-1e7b92d32d",
+        "speaker": "dfb01",
+        "wer": 1.0,
+        "cer": 1.0
+      },
+      {
+        "clip_id": "slr54-1bfbc005d9",
+        "speaker": "b7e01",
+        "wer": 3.5,
+        "cer": 3.7142857142857144
+      },
+      {
+        "clip_id": "slr54-1eb0a0f36f",
+        "speaker": "b4e60",
+        "wer": 1.0,
+        "cer": 1.0
+      },
+      {
+        "clip_id": "slr54-1492245d07",
+        "speaker": "a5793",
+        "wer": 1.0,
+        "cer": 0.9230769230769231
+      },
+      {
+        "clip_id": "slr54-1eed607c79",
+        "speaker": "3e9ed",
+        "wer": 1.0,
+        "cer": 25.6
+      },
+      {
+        "clip_id": "slr54-1993f4c92c",
+        "speaker": "d514c",
+        "wer": 1.6666666666666667,
+        "cer": 1.2857142857142858
+      },
+      {
+        "clip_id": "slr54-1d35c1b249",
+        "speaker": "3e9ed",
+        "wer": 1.3333333333333333,
+        "cer": 0.9047619047619048
+      },
+      {
+        "clip_id": "slr54-14cf33b92a",
+        "speaker": "a5793",
+        "wer": 3.0,
+        "cer": 1.9
+      },
+      {
+        "clip_id": "slr54-1b3bc34ed4",
+        "speaker": "0bd28",
+        "wer": 1.5,
+        "cer": 1.0
+      },
+      {
+        "clip_id": "slr54-1a5b64912e",
+        "speaker": "1df77",
+        "wer": 1.0,
+        "cer": 1.25
+      },
+      {
+        "clip_id": "slr54-134cd7f9fa",
+        "speaker": "a893c",
+        "wer": 1.0,
+        "cer": 1.0
+      },
+      {
+        "clip_id": "slr54-17e8f815ca",
+        "speaker": "bf591",
+        "wer": 1.0,
+        "cer": 1.0
+      },
+      {
+        "clip_id": "slr54-103447f91b",
+        "speaker": "c06a7",
+        "wer": 1.0,
+        "cer": 0.9090909090909091
+      }
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 # root
 data/
 .venv/
+.venv-train/
 .env
 __pycache__/
 *.db
@@ -16,3 +17,11 @@ dist/
 *.mp3
 *.wav
 *.m4a
+# training checkpoints / weights (never committed; results JSON is committed)
+*.safetensors
+*.pt
+*.ckpt
+*.onnx
+checkpoint-*/
+training/checkpoints/
+training/runs/

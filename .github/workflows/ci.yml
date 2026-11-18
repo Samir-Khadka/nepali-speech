@@ -32,6 +32,29 @@ jobs:
       - name: Run benchmark tests
         run: pytest benchmark/tests/ -q
 
+  training:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # CPU-only torch FIRST, from the PyTorch CPU index. A plain
+      # `pip install -r training/requirements.txt` would pull the
+      # multi-GB CUDA torch wheels (training/requirements.txt pins
+      # torch==2.15.0+cpu for reference only). With torch already
+      # installed from the CPU index, pip sees the pin as satisfied
+      # and does not re-fetch it. Same rule as
+      # benchmark/requirements-eval.txt and training/README.md §0.
+      - name: Install CPU-only torch first
+        run: |
+          pip install --index-url https://download.pytorch.org/whl/cpu torch
+      - name: Install training dependencies
+        run: |
+          pip install -r training/requirements.txt pytest
+      - name: Run training tests
+        run: pytest training/tests/ -q
+
   frontend:
     runs-on: ubuntu-latest
     steps:

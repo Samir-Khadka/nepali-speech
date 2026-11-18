@@ -1,0 +1,14 @@
+# CTC (Wav2Vec2-family) config — validated by
+# training/config.py::validate_ctc_config before any model is touched.
+# Default model: facebook/wav2vec2-xls-r-300m (see training/train_ctc.py
+# for the IndicWav2Vec alternative and its verification status).
+learning_rate: 0.0001
+per_device_train_batch_size: 4
+num_train_epochs: 3
+warmup_ratio: 0.03
+logging_steps: 10
+save_steps: 100
+# Freeze the convolutional feature extractor; fine-tune the transformer
+# + CTC head only. Set false only if you have the data + compute to
+# retrain the features (not recommended for the first run).
+freeze_feature_extractor: true

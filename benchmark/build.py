@@ -681,22 +681,43 @@ def materialise(manifest: dict, out_dir: Path,
     written: list[str] = []
     fleurs = [c for c in clips if c["source"] == "fleurs"]
     if fleurs:
-        parquet_path = out_dir / "fleurs-ne_np-test.parquet"
-        if not parquet_path.exists():
-            print(f"downloading FLEURS test parquet (~526 MB) -> {parquet_path}")
-            download_file(session, SOURCES["fleurs"]["download_url"], parquet_path)
-        pf = pq.ParquetFile(str(parquet_path))
-        rows_by_index = {c["parquet_row"]: c for c in fleurs}
-        row_offset = 0
-        for batch in pf.iter_batches(batch_size=64, columns=["audio"]):
-            for i, row in enumerate(batch.to_pylist()):
-                clip = rows_by_index.get(row_offset + i)
-                if clip is None:
-                    continue
-                dest = out_dir / "fleurs" / f"{clip['clip_id']}.wav"
-                _write_wav(dest, row["audio"]["bytes"])
-                written.append(str(dest))
-            row_offset += batch.num_rows
+        # Group by Parquet URL: train-split clips carry the TRAIN parquet
+        # URL + row indices, test-split clips the TEST one. Downloading only
+        # the test parquet (the old behaviour) and reading train row indices
+        # out of it silently paired train transcripts with test audio.
+        # Each distinct Parquet gets its own local file; the test file keeps
+        # its legacy name so previously materialised dirs stay valid.
+        by_parquet: dict[str, list[dict]] = defaultdict(list)
+        for clip in fleurs:
+            by_parquet[clip.get("parquet_url")
+                       or SOURCES["fleurs"]["download_url"]].append(clip)
+        for parquet_url, group in by_parquet.items():
+            stem = Path(parquet_url).name
+            # Split from the URL: resolve URLs look like
+            # .../ne_np/train-00000-of-00001.parquet, API URLs like
+            # .../parquet/ne_np/train/0.parquet — check both shapes.
+            if stem.startswith("train-") or "/train/" in parquet_url:
+                parquet_path = out_dir / "fleurs-ne_np-train.parquet"
+            else:
+                # "test-..." and anything unrecognised (incl. the synthetic
+                # URLs in tests) reuse the legacy test-parquet filename.
+                parquet_path = out_dir / "fleurs-ne_np-test.parquet"
+            if not parquet_path.exists():
+                print(f"downloading FLEURS parquet "
+                      f"{parquet_url} -> {parquet_path}")
+                download_file(session, parquet_url, parquet_path)
+            pf = pq.ParquetFile(str(parquet_path))
+            rows_by_index = {c["parquet_row"]: c for c in group}
+            row_offset = 0
+            for batch in pf.iter_batches(batch_size=64, columns=["audio"]):
+                for i, row in enumerate(batch.to_pylist()):
+                    clip = rows_by_index.get(row_offset + i)
+                    if clip is None:
+                        continue
+                    dest = out_dir / "fleurs" / f"{clip['clip_id']}.wav"
+                    _write_wav(dest, row["audio"]["bytes"])
+                    written.append(str(dest))
+                row_offset += batch.num_rows
     slr54 = [c for c in clips if c["source"] == "slr54"]
     by_archive: dict[str, list[dict]] = defaultdict(list)
     for clip in slr54:

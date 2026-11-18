@@ -1,0 +1,33 @@
+# Training dependencies — Phase 4 (training/ package).
+#
+# Install into the SEPARATE training venv, never the repo's main .venv:
+#   python3.12 -m venv .venv-train
+#   .venv-train/bin/pip install --index-url https://download.pytorch.org/whl/cpu torch
+#   .venv-train/bin/pip install -r training/requirements.txt
+#
+# IMPORTANT: install CPU-only torch FIRST from the PyTorch CPU index (the
+# command above). A plain `pip install torch` pulls multi-GB CUDA wheels.
+# The torch line below is pinned for reference only — do NOT install it
+# from this file without the CPU index, or pip will fetch the CUDA build.
+# (Same rule as benchmark/requirements-eval.txt.)
+#
+# Versions below are the ones actually installed and verified in
+# .venv-train on 2026-11-18 (python 3.12, `import torch, transformers,
+# peft` succeeds). `datasets` is deliberately NOT listed: no training
+# script uses it (manifests are plain JSONL, audio is loaded with
+# soundfile).
+
+torch==2.15.0+cpu  # CPU-only; install from https://download.pytorch.org/whl/cpu
+transformers==5.23.0
+peft==0.21.3
+accelerate==1.16.0
+jiwer==4.0.0  # must match benchmark/evaluate.py (jiwer 4.x API)
+librosa==1.0.1  # audio resampling in training/augment.py (+ numpy fallback)
+soundfile==0.14.0  # audio file I/O (training/common.py::load_audio_16k)
+pyyaml==6.0.3  # training/config.py (YAML configs)
+numpy==2.5.5
+requests==2.34.2  # training/prepare_data.py (SLR54 TSV + FLEURS metadata)
+pyarrow==26.0.1  # training/prepare_data.py (FLEURS Parquet range reads)
+# Transitive pins recorded for reproducibility (installed via the above):
+# tokenizers==0.23.3, safetensors==0.8.0, huggingface-hub==2.4.0,
+# scipy==1.18.1, numba==0.68.1, soxr==1.1.0
