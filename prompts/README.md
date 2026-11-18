@@ -6,6 +6,19 @@
 copied from any published source — no news sites, books, Wikipedia, lyrics,
 or quotes. Every entry has `"source": "original"`.
 
+## Pool size
+
+- Phase 1 (2026-11-18): 200 prompts — farming 40, commands 30, weather 25,
+  prices 25, daily-life 25, numbers 20, dates 15, addresses 10,
+  code-switched 10.
+- Phase 2 (2026-11-18): +900 prompts (IDs 201–1100) — farming +200,
+  commands +120, weather +100, prices +100, daily-life +100, numbers +80,
+  dates +60, addresses +40, code-switched +100.
+- Total: 1,100 prompts — farming 240, commands 150, weather 125, prices 125,
+  daily-life 125, numbers 100, dates 75, addresses 50, code-switched 110.
+- Phase 2 pool target: ~1,200 sentences for the 50-hour first batch —
+  100 prompts still to go.
+
 ## Format
 
 Each entry is one object in the JSON array:

@@ -222,6 +222,63 @@ def test_admin_stats_auth(client):
     assert body["by_domain"] == {}
 
 
+def test_admin_stats_coverage_fields_empty(client):
+    """Fresh DB: coverage buckets empty, hours estimate is zero."""
+    body = client.get(
+        "/api/admin/stats", headers={"X-Admin-Email": "admin@example.com"}
+    ).json()
+    assert body["by_province"] == {}
+    assert body["by_gender"] == {}
+    assert body["by_age_range"] == {}
+    assert body["hours_estimate"] == {
+        "approved_hours": 0.0,
+        "recorded_hours": 0.0,
+        "hours_basis": "5s average per recording (estimate)",
+    }
+
+
+def test_admin_stats_coverage_fields(client):
+    """Coverage buckets group by contributor demographics; blank -> 'unspecified'."""
+    # CID: 2 recordings, demographics set after recording (consent upsert).
+    rec1 = make_recording(client, CID, prompt_id=1)
+    consent(client, CID, province="Koshi", gender="female", age_range="18-25")
+    assert upload(client, CID, prompt_id=2).status_code == 201
+    # CID2: 1 recording, no demographics -> "unspecified".
+    make_recording(client, CID2, prompt_id=1)
+    client.post(f"/api/review/{rec1}", json={"reviewer_id": "rev1", "decision": "approve"})
+    rec2 = client.get("/api/recordings/mine", params={"contributor_id": CID}).json()[
+        "recordings"
+    ][1]["recording_id"]
+    client.post(
+        f"/api/review/{rec2}",
+        json={"reviewer_id": "rev1", "decision": "reject", "reason": "unclear"},
+    )
+    body = client.get(
+        "/api/admin/stats", headers={"X-Admin-Email": "admin@example.com"}
+    ).json()
+    assert body["by_province"] == {"Koshi": 2, "unspecified": 1}
+    assert body["by_gender"] == {"female": 2, "unspecified": 1}
+    assert body["by_age_range"] == {"18-25": 2, "unspecified": 1}
+    # 1 approved recording x 5s = 0.0014h; 2 non-rejected x 5s = 0.0028h.
+    assert body["hours_estimate"]["approved_hours"] == 0.0014
+    assert body["hours_estimate"]["recorded_hours"] == 0.0028
+    assert (
+        body["hours_estimate"]["hours_basis"] == "5s average per recording (estimate)"
+    )
+
+
+def test_admin_stats_coverage_blank_string_is_unspecified(client):
+    """Empty-string demographics count as 'unspecified', not as a blank key."""
+    consent(client, CID, province="", gender=" ", age_range="")
+    assert upload(client, CID, prompt_id=1).status_code == 201
+    body = client.get(
+        "/api/admin/stats", headers={"X-Admin-Email": "admin@example.com"}
+    ).json()
+    assert body["by_province"] == {"unspecified": 1}
+    assert body["by_gender"] == {"unspecified": 1}
+    assert body["by_age_range"] == {"unspecified": 1}
+
+
 def test_admin_stats_counts_after_activity(client):
     rec1 = make_recording(client, CID, prompt_id=1)
     rec2 = make_recording(client, CID, prompt_id=2)

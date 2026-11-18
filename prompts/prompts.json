@@ -631,7 +631,7 @@
   },
   {
     "id": 91,
-    "text": "मेरो फोन नम्बर ९८४१२३४५६७ हो।",
+    "text": "आज विद्यालयमा ३५० जना विद्यार्थी उपस्थित छन्।",
     "domain": "numbers",
     "language": "ne",
     "source": "original"
@@ -694,7 +694,7 @@
   },
   {
     "id": 100,
-    "text": "मेरो खाता नम्बर १२३४५६७८९ हो।",
+    "text": "मैले आज २५ किलो चामल किनेँ।",
     "domain": "numbers",
     "language": "ne",
     "source": "original"
@@ -1395,6 +1395,6306 @@
   {
     "id": 200,
     "text": "आज office मा presentation दिनुपर्छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 201,
+    "text": "केराको बगैंचा असोजमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 202,
+    "text": "भान्टाको बोटमा आज साँझ पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 203,
+    "text": "साग रोप्ने बेला साउन महिना उपयुक्त हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 204,
+    "text": "गोलभेडा रोप्ने बेला कात्तिक महिना उपयुक्त हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 205,
+    "text": "सूर्यमुखी पाकेपछि थ्रेसरले झार्न सजिलो हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 206,
+    "text": "करेलाको बोटमा भोलि दिउँसो पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 207,
+    "text": "सुन्तलाको बगैंचा माघमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 208,
+    "text": "खरायोलाई परसि बिहान ताजा घाँस खुवाउनुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 209,
+    "text": "तोरीको बीउ बजारबाट किनेर ल्याएँ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 210,
+    "text": "काँक्रो रोप्ने बेला फागुन महिना उपयुक्त हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 211,
+    "text": "करेला बारीमा राम्ररी उम्रियो यस वर्ष।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 212,
+    "text": "भटमास काट्न आज बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 213,
+    "text": "बेसार खन्ने समय भइसक्यो, ढिला नगर्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 214,
+    "text": "तरकारी टिप्न बिहानै जानु राम्रो हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 215,
+    "text": "नासपाती पाकेपछि बजारमा बेच्न सजिलो हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 216,
+    "text": "भान्टाको बोटमा भोलि बिहान पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 217,
+    "text": "सिमी काट्न आज दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 218,
+    "text": "मुला रोप्ने बेला बैशाख महिना उपयुक्त हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 219,
+    "text": "करेलाको बोटमा झार धेरै पलायो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 220,
+    "text": "आँपको बगैंचा साउनमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 221,
+    "text": "गाजरको बोटमा आज बेलुका पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 222,
+    "text": "कोदोको ढिँडो स्वास्थ्यका लागि राम्रो हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 223,
+    "text": "बिहानको शीतले बाली चिसो बनायो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 224,
+    "text": "सुन्तलाको बगैंचा साउनमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 225,
+    "text": "बाख्रालाई भोलि बिहान ताजा घाँस खुवाउनुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 226,
+    "text": "बन्दाको बोटमा आज बिहान पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 227,
+    "text": "काँक्रोको बोटमा झार धेरै पलायो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 228,
+    "text": "फर्सी रोप्ने बेला माघ महिना उपयुक्त हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 229,
+    "text": "अनारको बगैंचा असारमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 230,
+    "text": "लिचीको बगैंचा फागुनमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 231,
+    "text": "लसुनको बोटमा परसि बिहान पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 232,
+    "text": "धानको खेतमा आज सिँचाइ गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 233,
+    "text": "वर्षा नपर्दा सिँचाइको पानी सकिन थाल्यो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 234,
+    "text": "बाख्रालाई हिजो दिउँसो ताजा घाँस खुवाउनुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 235,
+    "text": "लिचीको बगैंचा कात्तिकमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 236,
+    "text": "निबुवाको बगैंचा भदौमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 237,
+    "text": "चनाको बाली बेचेर यस वर्ष घर मर्मत गर्छु।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 238,
+    "text": "मसुरोको खेतमा आज सिँचाइ गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 239,
+    "text": "आँपको रुखमा यस वर्ष फल कम लाग्यो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 240,
+    "text": "अनारको बगैंचा असोजमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 241,
+    "text": "लौकाको बोटमा बिहानै पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 242,
+    "text": "पालुङ्गोको बोटमा बिहानै पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 243,
+    "text": "भटमास रोप्नुअघि खेत राम्ररी जोत्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 244,
+    "text": "आलु बजारमा बेच्न बिहानै लैजानुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 245,
+    "text": "कागतीको बगैंचा साउनमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 246,
+    "text": "चनाको बोटमा फूल फुल्न थाल्यो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 247,
+    "text": "आरुबखडाको बोटमा यस वर्ष धेरै फल लाग्यो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 248,
+    "text": "गाजरको बोटमा हिजो बिहान पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 249,
+    "text": "भैंसीको गोठ सफा राख्नुपर्छ हरेक दिन।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 250,
+    "text": "आरुबखडाको बगैंचा साउनमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 251,
+    "text": "लिचीको बगैंचा चैतमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 252,
+    "text": "सूर्यमुखी काट्न आज बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 253,
+    "text": "बीउ भण्डारण गर्दा सुख्खा ठाउँ चाहिन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 254,
+    "text": "लसुन रोप्ने बेला असार महिना उपयुक्त हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 255,
+    "text": "अम्बाको बगैंचा चैतमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 256,
+    "text": "मकै रोप्नुअघि खेत राम्ररी जोत्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 257,
+    "text": "च्याउ रोप्ने बेला पुस महिना उपयुक्त हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 258,
+    "text": "अलसको खेतमा आज सिँचाइ गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 259,
+    "text": "नासपातीको बगैंचा भदौमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 260,
+    "text": "चना रोप्नुअघि खेत राम्ररी जोत्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 261,
+    "text": "गाईको दूध हिजो दिउँसो दुहुनुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 262,
+    "text": "कुखुरालाई आज दिउँसो ताजा घाँस खुवाउनुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 263,
+    "text": "सुँगुरलाई आज बेलुका ताजा घाँस खुवाउनुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 264,
+    "text": "सुन्तलाको बगैंचा पुसमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 265,
+    "text": "अङ्गुरको बगैंचा कात्तिकमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 266,
+    "text": "मसुरो काट्न हिजो दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 267,
+    "text": "फर्सीको बोटमा आज दिउँसो पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 268,
+    "text": "कुखुराको अण्डा बजारमा बेच्न लैजान्छु।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 269,
+    "text": "गोलभेडाको बोटमा बिहानै पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 270,
+    "text": "तिल काट्न भोलि बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 271,
+    "text": "गाईलाई आज साँझ ताजा घाँस खुवाउनुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 272,
+    "text": "कागतीको बगैंचा बैशाखमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 273,
+    "text": "भैंसीलाई आज बिहान ताजा घाँस खुवाउनुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 274,
+    "text": "मकै काट्न आज बेलुका जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 275,
+    "text": "नासपातीको बगैंचा मंसिरमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 276,
+    "text": "मकैको घोगा पोलेर खान मिठो हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 277,
+    "text": "कोदो काट्न हिजो दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 278,
+    "text": "सुन्तलाको बगैंचा भदौमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 279,
+    "text": "कटहरको बगैंचा असोजमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 280,
+    "text": "आँपको बगैंचा असारमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 281,
+    "text": "काउलीको बोटमा बिहानै पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 282,
+    "text": "किसानले खेतमा दिनभरि पसिना बगाउँछ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 283,
+    "text": "अनारको बगैंचा साउनमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 284,
+    "text": "मकै काट्न आज बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 285,
+    "text": "सागको बोटमा बिहानै पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 286,
+    "text": "मकै काट्न भोलि बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 287,
+    "text": "तोरी रोप्नुअघि खेत राम्ररी जोत्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 288,
+    "text": "भटमास काट्न हिजो दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 289,
+    "text": "मेवाको बगैंचा फागुनमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 290,
+    "text": "बन्दा रोप्ने बेला चैत महिना उपयुक्त हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 291,
+    "text": "बाख्रालाई बिहानै ताजा घाँस खुवाउनुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 292,
+    "text": "आलुको बोटमा बिहानै पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 293,
+    "text": "जौ काट्न भोलि बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 294,
+    "text": "रायो रोप्ने बेला असोज महिना उपयुक्त हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 295,
+    "text": "उखु काट्न आज बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 296,
+    "text": "मकैको खेतमा आज सिँचाइ गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 297,
+    "text": "फापरको बाली यस वर्ष धेरै राम्रो भयो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 298,
+    "text": "सुन्तलाको बगैंचा चैतमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 299,
+    "text": "बोडी रोप्ने बेला जेठ महिना उपयुक्त हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 300,
+    "text": "नासपातीको बगैंचा असोजमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 301,
+    "text": "स्याउको बगैंचा असोजमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 302,
+    "text": "मेवाको बगैंचा माघमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 303,
+    "text": "जुनारको बगैंचा असोजमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 304,
+    "text": "नासपातीको बगैंचा माघमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 305,
+    "text": "जुनारको बगैंचा भदौमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 306,
+    "text": "बेसारको बोटमा हिजो दिउँसो पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 307,
+    "text": "अनारको बगैंचा कात्तिकमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 308,
+    "text": "धान काट्न हिजो दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 309,
+    "text": "धान काट्न भोलि बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 310,
+    "text": "लौका रोप्ने बेला मंसिर महिना उपयुक्त हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 311,
+    "text": "रायोको बोटमा झार धेरै पलायो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 312,
+    "text": "च्याउ खेतीबाट राम्रो आम्दानी हुन थाल्यो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 313,
+    "text": "कटहरको बगैंचा फागुनमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 314,
+    "text": "स्याउको बगैंचा माघमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 315,
+    "text": "भेडा बिरामी पर्यो, पशु चिकित्सक बोलाउनुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 316,
+    "text": "तिल काट्न भोलि दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 317,
+    "text": "जौ रोप्नुअघि खेत राम्ररी जोत्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 318,
+    "text": "हाँसलाई दाना दिन बिर्सनु हुँदैन।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 319,
+    "text": "बाख्राको पाठो बजारमा बेच्न लैजान्छु।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 320,
+    "text": "जौ काट्न परसि बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 321,
+    "text": "प्याज रोप्ने बेला भदौ महिना उपयुक्त हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 322,
+    "text": "रायोको बोटमा बिहानै पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 323,
+    "text": "खरायोलाई भोलि दिउँसो ताजा घाँस खुवाउनुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 324,
+    "text": "फापर काट्न हिजो दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 325,
+    "text": "भटमास काट्न हिजो बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 326,
+    "text": "जौमा कीरा लाग्यो, औषधि छर्कनुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 327,
+    "text": "बन्दाको अचार बनाउन सजिलो छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 328,
+    "text": "चना काट्न भोलि दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 329,
+    "text": "लसुन स्वास्थ्यका लागि धेरै फाइदाजनक छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 330,
+    "text": "जुनारको बगैंचा माघमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 331,
+    "text": "अनारको बगैंचा जेठमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 332,
+    "text": "कफीको बोटमा फूल फुल्न थाल्यो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 333,
+    "text": "कटहरको बगैंचा मंसिरमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 334,
+    "text": "धान काट्न आज बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 335,
+    "text": "तिलको तेल घरमै पेल्न सकिन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 336,
+    "text": "गोरुलाई बिहानै ताजा घाँस खुवाउनुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 337,
+    "text": "फापरमा कीरा लाग्यो, औषधि छर्कनुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 338,
+    "text": "कोदो काट्न आज दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 339,
+    "text": "सुँगुरलाई दाना दिन बिर्सनु हुँदैन।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 340,
+    "text": "तिलको खेतमा आज सिँचाइ गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 341,
+    "text": "लिचीको बगैंचा साउनमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 342,
+    "text": "गाईको दूध आज साँझ दुहुनुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 343,
+    "text": "सागको बोटमा झार धेरै पलायो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 344,
+    "text": "आँपको बगैंचा चैतमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 345,
+    "text": "लिचीको बगैंचा बैशाखमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 346,
+    "text": "खरायोलाई साग खुवाउँदा छिटो बढ्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 347,
+    "text": "आलुको तरकारी दालसँग मिठो हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 348,
+    "text": "सूर्यमुखीको खेतमा आज सिँचाइ गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 349,
+    "text": "अलस काट्न भोलि बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 350,
+    "text": "बजारको तरकारी ताजा छ भने छिटो बिक्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 351,
+    "text": "भेडालाई दाना दिन बिर्सनु हुँदैन।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 352,
+    "text": "केराको बोट हावाले ढलेर बिग्रियो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 353,
+    "text": "फापर काट्न आज साँझ जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 354,
+    "text": "जौको बाली काट्न अब केही दिन लाग्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 355,
+    "text": "जुनारको बगैंचा असारमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 356,
+    "text": "आरुबखडाको बगैंचा भदौमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 357,
+    "text": "गाजरको हलुवा बनाउन सजिलो छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 358,
+    "text": "तिल काट्न आज साँझ जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 359,
+    "text": "सूर्यमुखी काट्न हिजो दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 360,
+    "text": "अलस रोप्नुअघि खेत राम्ररी जोत्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 361,
+    "text": "जौ काट्न आज बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 362,
+    "text": "उखु काट्न परसि बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 363,
+    "text": "अङ्गुरको बगैंचा जेठमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 364,
+    "text": "कोदो काट्न आज साँझ जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 365,
+    "text": "कोदो काट्न आज बेलुका जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 366,
+    "text": "सूर्यमुखी काट्न हिजो बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 367,
+    "text": "गहुँ काट्न आज दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 368,
+    "text": "जुनारको बगैंचा फागुनमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 369,
+    "text": "गोरुलाई दाना दिन बिर्सनु हुँदैन।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 370,
+    "text": "बन्दा बजारमा बेच्न बिहानै लैजानुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 371,
+    "text": "तिल रोप्नुअघि खेत राम्ररी जोत्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 372,
+    "text": "तोरी काट्न भोलि बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 373,
+    "text": "अदुवा बजारमा बेच्न बिहानै लैजानुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 374,
+    "text": "कागतीको बगैंचा माघमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 375,
+    "text": "कोदो काट्न भोलि दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 376,
+    "text": "चनामा कीरा लाग्यो, औषधि छर्कनुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 377,
+    "text": "तिलको बीउ बजारबाट किनेर ल्याएँ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 378,
+    "text": "भान्टा भुटेर खान मिठो हुन्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 379,
+    "text": "चना काट्न भोलि बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 380,
+    "text": "कागतीको बगैंचा पुसमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 381,
+    "text": "कुखुरालाई बिहानै ताजा घाँस खुवाउनुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 382,
+    "text": "मकै काट्न भोलि दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 383,
+    "text": "फापर काट्न आज बेलुका जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 384,
+    "text": "निबुवाको बगैंचा साउनमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 385,
+    "text": "पालुङ्गो बजारमा बेच्न बिहानै लैजानुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 386,
+    "text": "भटमासको बीउ बजारबाट किनेर ल्याएँ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 387,
+    "text": "नासपातीको बगैंचा असारमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 388,
+    "text": "हिउँदमा खेत सुक्खा भएर चिरा पर्यो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 389,
+    "text": "लिचीको बगैंचा असारमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 390,
+    "text": "चना काट्न आज बेलुका जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 391,
+    "text": "मकै काट्न आज दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 392,
+    "text": "धानमा कीरा लाग्यो, औषधि छर्कनुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 393,
+    "text": "चना काट्न आज बिहान जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 394,
+    "text": "आरुबखडाको बगैंचा पुसमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 395,
+    "text": "गाजर बजारमा बेच्न बिहानै लैजानुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 396,
+    "text": "अम्बाको बगैंचा माघमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 397,
+    "text": "भान्टाको बोटमा बिहानै पानी हाल्नुहोस्।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 398,
+    "text": "लौकाको बोटमा झार धेरै पलायो।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 399,
+    "text": "नासपातीको बगैंचा कात्तिकमा गोडमेल गर्नुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 400,
+    "text": "तोरी काट्न भोलि दिउँसो जानुपर्छ।",
+    "domain": "farming",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 401,
+    "text": "मलाई विराटनगरको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 402,
+    "text": "मलाई फापरको बजार मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 403,
+    "text": "मलाई उखुको बजार मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 404,
+    "text": "मलाई धनगढी जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 405,
+    "text": "कृपया तुलसीपुर जाने बसको समय बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 406,
+    "text": "कृपया भान्टाको आजको मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 407,
+    "text": "कृपया मेरो सन्देश पढेर सुनाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 408,
+    "text": "कृपया पालुङ्गोको आजको मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 409,
+    "text": "कृपया करेलाको आजको मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 410,
+    "text": "मलाई रायोको मूल्य आज बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 411,
+    "text": "कृपया मलाई कात्तिकको क्यालेन्डर देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 412,
+    "text": "मलाई अंग्रेजी शब्दको नेपाली अर्थ बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 413,
+    "text": "मलाई भरतपुर जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 414,
+    "text": "मलाई पाल्पा जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 415,
+    "text": "मलाई सिन्धुली जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 416,
+    "text": "मलाई सिन्धुलीको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 417,
+    "text": "वाइफाइ खोल्नुहोस् र जडान गर्नुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 418,
+    "text": "मलाई दोलखाको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 419,
+    "text": "मलाई महेन्द्रनगर जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 420,
+    "text": "मलाई बिहान छ बजे उठाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 421,
+    "text": "मलाई लमजुङको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 422,
+    "text": "कृपया टाइमर बीस मिनेटको लगाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 423,
+    "text": "आज पानी पर्छ कि बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 424,
+    "text": "मलाई गोलभेडाको मूल्य आज बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 425,
+    "text": "कृपया आजको सुनको मूल्य सुनाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 426,
+    "text": "मलाई इलामको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 427,
+    "text": "कृपया च्याउको आजको मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 428,
+    "text": "कृपया मेरो दाइलाई फोन गर्नुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 429,
+    "text": "कृपया मलाई असारको क्यालेन्डर देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 430,
+    "text": "मलाई लौकाको मूल्य आज बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 431,
+    "text": "कृपया लसुनको आजको मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 432,
+    "text": "कृपया लौकाको आजको मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 433,
+    "text": "मलाई भान्टाको मूल्य आज बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 434,
+    "text": "मलाई बिहान पाँच बजे उठाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 435,
+    "text": "नजिकैको औषधि पसल कहाँ छ बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 436,
+    "text": "मलाई धरानको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 437,
+    "text": "मलाई गहुँको बजार मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 438,
+    "text": "मलाई खोटाङ जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 439,
+    "text": "बिहान पाँच बजेको अलार्म लगाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 440,
+    "text": "मलाई धनकुटा जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 441,
+    "text": "कृपया मलाई अस्पतालको बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 442,
+    "text": "मलाई धनगढीको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 443,
+    "text": "मलाई बुटवल जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 444,
+    "text": "कृपया मेरो टिकट बुक गर्नुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 445,
+    "text": "आजको कार्यक्रम के के छ बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 446,
+    "text": "मलाई मसुरोको बजार मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 447,
+    "text": "मलाई इलाम जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 448,
+    "text": "मलाई राजविराज जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 449,
+    "text": "मलाई वीरगन्ज जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 450,
+    "text": "मलाई नेपालगन्जको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 451,
+    "text": "मलाई भोजपुर जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 452,
+    "text": "कृपया फर्सीको आजको मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 453,
+    "text": "मलाई काँक्रोको मूल्य आज बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 454,
+    "text": "मलाई इटहरी जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 455,
+    "text": "मलाई रोल्पा जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 456,
+    "text": "मलाई मुलाको मूल्य आज बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 457,
+    "text": "कृपया मलाई भदौको क्यालेन्डर देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 458,
+    "text": "मलाई चनाको बजार मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 459,
+    "text": "कृपया मेरो नोट पढेर सुनाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 460,
+    "text": "कृपया गाजरको आजको मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 461,
+    "text": "मलाई जौको बजार मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 462,
+    "text": "कृपया आजको फुटबल नतिजा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 463,
+    "text": "कृपया प्याजको आजको मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 464,
+    "text": "मलाई धादिङ जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 465,
+    "text": "मलाई बिर्तामोडको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 466,
+    "text": "मलाई तुलसीपुरको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 467,
+    "text": "मलाई कलैयाको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 468,
+    "text": "मलाई भरतपुरको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 469,
+    "text": "मलाई च्याउको मूल्य आज बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 470,
+    "text": "मलाई खोटाङको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 471,
+    "text": "कृपया मेरो बुबालाई फोन गर्नुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 472,
+    "text": "मलाई मेरो साथीको नम्बर खोज्नुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 473,
+    "text": "मलाई मकैको बजार मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 474,
+    "text": "मलाई नुवाकोटको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 475,
+    "text": "मलाई बैतडीको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 476,
+    "text": "कृपया मलाई असोजको क्यालेन्डर देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 477,
+    "text": "मलाई गौर जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 478,
+    "text": "मलाई महेन्द्रनगरको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 479,
+    "text": "मलाई गोरखा जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 480,
+    "text": "कृपया मेरो सम्पर्क सूची खोल्नुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 481,
+    "text": "मलाई तानसेन जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 482,
+    "text": "मलाई वीरगन्जको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 483,
+    "text": "मलाई रोल्पाको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 484,
+    "text": "कृपया मलाई चैतको क्यालेन्डर देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 485,
+    "text": "मलाई दाङको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 486,
+    "text": "मलाई आजको राशिफल पढेर सुनाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 487,
+    "text": "मेरो रिमाइन्डर भोलि बिहान लगाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 488,
+    "text": "मलाई कोदोको बजार मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 489,
+    "text": "मलाई अदुवाको मूल्य आज बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 490,
+    "text": "कृपया सागको आजको मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 491,
+    "text": "मलाई दमक जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 492,
+    "text": "कृपया यो शब्दको उच्चारण सुनाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 493,
+    "text": "मलाई गाजरको मूल्य आज बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 494,
+    "text": "मलाई नजिकैको चिया पसल देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 495,
+    "text": "मलाई बेनीको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 496,
+    "text": "मलाई बजार जाने छोटो बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 497,
+    "text": "मलाई आलुको मूल्य आज बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 498,
+    "text": "कृपया बन्दाको आजको मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 499,
+    "text": "मलाई बन्दाको मूल्य आज बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 500,
+    "text": "नजिकैको बैंक कहाँ छ बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 501,
+    "text": "कृपया अदुवाको आजको मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 502,
+    "text": "आजको तापक्रम कति छ बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 503,
+    "text": "कृपया मलाई बैशाखको क्यालेन्डर देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 504,
+    "text": "मलाई भोलिको परीक्षा समय बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 505,
+    "text": "मलाई कञ्चनपुर जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 506,
+    "text": "मलाई हेटौंडा जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 507,
+    "text": "मलाई हेटौंडाको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 508,
+    "text": "मलाई सूर्यमुखीको बजार मूल्य बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 509,
+    "text": "मलाई जनकपुर जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 510,
+    "text": "मलाई डोटीको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 511,
+    "text": "मलाई बोडीको मूल्य आज बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 512,
+    "text": "मलाई नुवाकोट जाने बाटो देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 513,
+    "text": "मलाई जनकपुरको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 514,
+    "text": "भोलिको मौसम कस्तो हुन्छ बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 515,
+    "text": "कृपया मलाई फागुनको क्यालेन्डर देखाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 516,
+    "text": "मलाई धादिङको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 517,
+    "text": "मलाई सुर्खेतको बस भाडा बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 518,
+    "text": "मलाई लसुनको मूल्य आज बताउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 519,
+    "text": "कृपया टाइमर पन्ध्र मिनेटको लगाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 520,
+    "text": "कृपया टाइमर दस मिनेटको लगाउनुहोस्।",
+    "domain": "commands",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 521,
+    "text": "बादल लागेपछि दिउँसो घाम छेलिन थाल्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 522,
+    "text": "गर्मीको बेला छहारीमा बस्नु राम्रो हुन्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 523,
+    "text": "मनसुनको पानीले खेतमा पानी जम्न थाल्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 524,
+    "text": "चैतमा धेरै पानी पर्छ यहाँ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 525,
+    "text": "आजको चिसोले हात खुट्टा कठाङ्ग्रियो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 526,
+    "text": "बेलुका चिसो हावा चल्न थाल्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 527,
+    "text": "घाम लागेपछि तरकारी छिटो सुक्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 528,
+    "text": "आजको तापक्रम पन्ध्र डिग्री छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 529,
+    "text": "आज पानी परेर हावा सफा भयो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 530,
+    "text": "पानी परेपछि हावा चिसो भएर आयो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 531,
+    "text": "बिहान शीत परेर घाँस भिज्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 532,
+    "text": "बिहानको घाममा बसेर न्यानो भयो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 533,
+    "text": "आज हुस्सुले गाउँ पूरै छोप्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 534,
+    "text": "हिमालमा हिउँ परेर सेतो देखियो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 535,
+    "text": "दिउँसो बादल लागेर घाम छेलियो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 536,
+    "text": "कुहिरोमा गाडी चलाउन गाह्रो हुन्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 537,
+    "text": "तराईमा गर्मीले मानिस हैरान भए।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 538,
+    "text": "घाम लागेपछि बिहानको शीत सुक्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 539,
+    "text": "घाम लागेपछि हिउँ पग्लिन थाल्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 540,
+    "text": "गर्मीमा राति सुत्न गाह्रो हुन्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 541,
+    "text": "जाडोमा बिहान उठ्न गाह्रो हुन्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 542,
+    "text": "घाम नलाग्दा लुगा सुक्न गाह्रो हुन्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 543,
+    "text": "राति हावा चलेर झ्याल बज्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 544,
+    "text": "आज दिउँसो ठूलो पानी पर्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 545,
+    "text": "आज मौसम बदलिएर पानी पर्न थाल्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 546,
+    "text": "आज राति पानी पर्ने सम्भावना कम छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 547,
+    "text": "पानी पर्दा बाटोमा हिलो जम्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 548,
+    "text": "आजको तापक्रम तीस डिग्री छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 549,
+    "text": "असारमा धेरै पानी पर्छ यहाँ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 550,
+    "text": "आजको तापक्रम हिजोभन्दा कम छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 551,
+    "text": "आज हावाको गति धेरै छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 552,
+    "text": "भोलि बिहान मौसम सफा हुने अनुमान छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 553,
+    "text": "जाडोको बेला न्यानो कपडा लगाउनुहोस्।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 554,
+    "text": "मनसुन सकिएपछि घाम लाग्न थाल्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 555,
+    "text": "मंसिरमा धेरै पानी पर्छ यहाँ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 556,
+    "text": "आजको चिसो हावाले जाडो बढ्न थाल्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 557,
+    "text": "आज बिहान घाम लागेर दिन राम्रो भयो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 558,
+    "text": "आज बिहान कुहिरो लागेर बाटो देखिएन।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 559,
+    "text": "आजको तापक्रम अठार डिग्री छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 560,
+    "text": "बादल छाएपछि घामको ताप घट्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 561,
+    "text": "पुसमा धेरै पानी पर्छ यहाँ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 562,
+    "text": "हिजो राति ठूलो हावाहुरी चल्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 563,
+    "text": "गर्मीको बेला छहारी खोजेर बस्नुहोस्।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 564,
+    "text": "माघमा धेरै पानी पर्छ यहाँ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 565,
+    "text": "आजको मौसम खेतीका लागि राम्रो छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 566,
+    "text": "आजको तापक्रम बत्तीस डिग्री छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 567,
+    "text": "गर्मीको बेला दिउँसो बाहिर निस्कनु हुँदैन।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 568,
+    "text": "आजको मौसमले मन खुसी बनायो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 569,
+    "text": "आज बिहान घाम चर्को लाग्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 570,
+    "text": "राति चिसो हावा चलेर झ्याल बज्न थाल्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 571,
+    "text": "भोलि बिहान कुहिरो लाग्ने अनुमान गरिएको छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 572,
+    "text": "वर्षाले गर्दा बजारमा मानिस कम आए।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 573,
+    "text": "आजको तापक्रम दस डिग्री छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 574,
+    "text": "दिउँसो घाम लाग्दा छाता ओढ्नुहोस्।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 575,
+    "text": "आज आकाश निलो र सफा छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 576,
+    "text": "हावाहुरीमा रुख ढलेर बाटो छेकियो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 577,
+    "text": "साँझको हावा शीतल भएर आयो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 578,
+    "text": "चिसो मौसममा तातो चिया पिउन मन लाग्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 579,
+    "text": "कात्तिकमा धेरै पानी पर्छ यहाँ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 580,
+    "text": "गर्मीले गर्दा दिउँसो पानी धेरै पिउनुपर्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 581,
+    "text": "हिउँदको चिसोले बिहान उठ्न गाह्रो हुन्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 582,
+    "text": "पानी पर्ने बेला छाता साथमा लैजानुहोस्।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 583,
+    "text": "भदौमा धेरै पानी पर्छ यहाँ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 584,
+    "text": "वर्षाको पानीले खोलामा बाढी आयो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 585,
+    "text": "राति पानी पर्न सक्छ भन्ने सुनियो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 586,
+    "text": "मौसम पूर्वानुमान अनुसार भोलि पानी पर्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 587,
+    "text": "घाम लागेपछि लुगा सुकाउन सजिलो भयो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 588,
+    "text": "साउनमा धेरै पानी पर्छ यहाँ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 589,
+    "text": "खडेरीको बेला पानीको अभाव हुन्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 590,
+    "text": "जाडोको बेला आगो ताप्न मन लाग्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 591,
+    "text": "पानी परेपछि नदीको पानी बढ्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 592,
+    "text": "फागुनमा धेरै पानी पर्छ यहाँ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 593,
+    "text": "आज राति चिसो बढ्ने अनुमान छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 594,
+    "text": "बिहानको हावाले मन ताजा बनायो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 595,
+    "text": "आज हावा चिसो भएर जाडो लाग्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 596,
+    "text": "हिउँ परेपछि बाटो चिप्लो हुन्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 597,
+    "text": "आज हावा चलेर रुखका पात झरे।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 598,
+    "text": "मनसुनको पानीले धान रोप्न सजिलो भयो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 599,
+    "text": "आज राति चिसो हावा चल्न थाल्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 600,
+    "text": "वर्षाको पानीले खोलाको पानी बढ्न थाल्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 601,
+    "text": "आज साँझ ठूलो पानी पर्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 602,
+    "text": "आजको तापक्रम हिजोभन्दा बढी छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 603,
+    "text": "आजको मौसम सफा भएकाले घुम्न जान सजिलो भयो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 604,
+    "text": "घाम र पानी दुवैले बाली राम्रो हुन्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 605,
+    "text": "बिहानको कुहिरो दिउँसो बल्ल हट्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 606,
+    "text": "पानी परेपछि खेतमा पानी जम्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 607,
+    "text": "जाडोको बेला न्यानो कपडा लगाएर बस्नुहोस्।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 608,
+    "text": "हावाहुरीले गर्दा बाटोमा रुख ढल्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 609,
+    "text": "आज बेलुका घाम चर्को लाग्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 610,
+    "text": "आजको तापक्रम आठ डिग्री छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 611,
+    "text": "पानी परेपछि हावा चिसो भयो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 612,
+    "text": "मौसम सफा भए बजार जान सजिलो हुन्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 613,
+    "text": "असोजमा धेरै पानी पर्छ यहाँ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 614,
+    "text": "आजको बादलले पानी पर्ने संकेत दियो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 615,
+    "text": "आज बिहान पानी परेर बाटो हिलो भयो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 616,
+    "text": "बैशाखमा धेरै पानी पर्छ यहाँ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 617,
+    "text": "गर्मीमा दिउँसो बाहिर ननिस्कनु राम्रो हुन्छ।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 618,
+    "text": "आज राति ठूलो पानी पर्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 619,
+    "text": "बिहान पानी परेर बाटो भिज्यो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 620,
+    "text": "बिहान कुहिरो लागेर गाडी चलाउन गाह्रो भयो।",
+    "domain": "weather",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 621,
+    "text": "आलुको २० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 622,
+    "text": "बोडीको ३० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 623,
+    "text": "च्याउको ७० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 624,
+    "text": "आज अनार प्रतिकेजी दुई सय रुपैयाँ पर्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 625,
+    "text": "आज करेला 200 रुपैयाँ किलोमा किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 626,
+    "text": "आज पालुङ्गो 30 रुपैयाँ किलोमा किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 627,
+    "text": "आज गाजर प्रतिकेजी पाँच सय रुपैयाँ छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 628,
+    "text": "ग्यासको सिलिन्डर एक हजार आठ सय रुपैयाँ पर्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 629,
+    "text": "फर्सी प्रतिकेजी पाँच सय रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 630,
+    "text": "आज रायो किन्न 50 रुपैयाँ खर्च भयो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 631,
+    "text": "आज पालुङ्गो प्रतिकेजी एक हजार रुपैयाँ छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 632,
+    "text": "आलु प्रतिकेजी दुई सय रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 633,
+    "text": "आज लौका प्रतिकेजी दुई सय रुपैयाँ छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 634,
+    "text": "आज लसुन 90 रुपैयाँ किलोमा किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 635,
+    "text": "आज मुला 40 रुपैयाँ किलोमा किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 636,
+    "text": "मुला प्रतिकेजी पचास रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 637,
+    "text": "आज करेला किन्न 1000 रुपैयाँ खर्च भयो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 638,
+    "text": "आज प्याज प्रतिकेजी तीन सय रुपैयाँ छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 639,
+    "text": "अदुवाको २०० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 640,
+    "text": "आज साग किन्न 150 रुपैयाँ खर्च भयो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 641,
+    "text": "आज फर्सी किन्न 30 रुपैयाँ खर्च भयो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 642,
+    "text": "बेसार प्रतिकेजी एक हजार रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 643,
+    "text": "आज लसुन प्रतिकेजी पचास रुपैयाँ छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 644,
+    "text": "आज बन्दा किन्न 300 रुपैयाँ खर्च भयो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 645,
+    "text": "आज गोलभेडा 120 रुपैयाँ किलोमा किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 646,
+    "text": "आज नासपाती प्रतिकेजी अस्सी रुपैयाँ पर्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 647,
+    "text": "बोडी प्रतिकेजी सात सय रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 648,
+    "text": "आज स्याउ प्रतिकेजी चालीस रुपैयाँ पर्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 649,
+    "text": "आज करेला प्रतिकेजी सत्तरी रुपैयाँ छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 650,
+    "text": "आज च्याउ किन्न 90 रुपैयाँ खर्च भयो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 651,
+    "text": "करेलाको ५० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 652,
+    "text": "तरकारीको मूल्य हिजोभन्दा आज बढी छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 653,
+    "text": "प्याज प्रतिकेजी एक सय पचास रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 654,
+    "text": "आज कागती प्रतिकेजी तीस रुपैयाँ पर्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 655,
+    "text": "गाजर प्रतिकेजी तीन सय रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 656,
+    "text": "आज बन्दा प्रतिकेजी तीस रुपैयाँ छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 657,
+    "text": "लसुनको ९० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 658,
+    "text": "गाजरको ३० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 659,
+    "text": "भान्टाको २० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 660,
+    "text": "बजारमा कागती महँगो भयो आज।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 661,
+    "text": "बोडी प्रतिकेजी साठ रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 662,
+    "text": "आज बोडी किन्न 80 रुपैयाँ खर्च भयो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 663,
+    "text": "मुला प्रतिकेजी सत्तरी रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 664,
+    "text": "फर्सीको २० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 665,
+    "text": "आज बोडी प्रतिकेजी एक सय रुपैयाँ छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 666,
+    "text": "बसको टिकट पाँच सय रुपैयाँ पर्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 667,
+    "text": "बन्दा प्रतिकेजी पचास रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 668,
+    "text": "आज रायो 300 रुपैयाँ किलोमा किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 669,
+    "text": "करेलाको ५०० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 670,
+    "text": "च्याउको ९० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 671,
+    "text": "बजारमा आज मेवाको मूल्य घट्यो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 672,
+    "text": "पनिर प्रतिकेजी आठ सय रुपैयाँ छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 673,
+    "text": "बजारमा करेला सस्तोमा पाइन्छ आज।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 674,
+    "text": "करेला प्रतिकेजी एक सय बीस रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 675,
+    "text": "आज जुनार प्रतिकेजी तीन सय रुपैयाँ पर्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 676,
+    "text": "आज अदुवा किन्न 700 रुपैयाँ खर्च भयो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 677,
+    "text": "आज प्याज किन्न 120 रुपैयाँ खर्च भयो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 678,
+    "text": "बजारमा खुर्सानीको मूल्य स्थिर छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 679,
+    "text": "आज काँक्रो 700 रुपैयाँ किलोमा किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 680,
+    "text": "आज गाजर किन्न 500 रुपैयाँ खर्च भयो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 681,
+    "text": "जुत्ताको जोडी एक हजार रुपैयाँ पर्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 682,
+    "text": "आज बन्दा 70 रुपैयाँ किलोमा किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 683,
+    "text": "काँक्रोको ९० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 684,
+    "text": "लसुनको ३०० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 685,
+    "text": "गहुँ बेचेर पन्ध्र हजार रुपैयाँ पाएँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 686,
+    "text": "भिन्डी प्रतिकेजी नब्बे रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 687,
+    "text": "बजारमा जुनार महँगो भयो आज।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 688,
+    "text": "च्याउको २०० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 689,
+    "text": "आज पालुङ्गो किन्न 60 रुपैयाँ खर्च भयो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 690,
+    "text": "पालुङ्गोको ५० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 691,
+    "text": "लसुनको ७०० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 692,
+    "text": "प्याजको ७० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 693,
+    "text": "रायोको मूल्य आज धेरै बढ्यो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 694,
+    "text": "चियाको मूल्य बीस रुपैयाँ कप छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 695,
+    "text": "आज मुला किन्न 40 रुपैयाँ खर्च भयो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 696,
+    "text": "मुलाको ९० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 697,
+    "text": "साग प्रतिकेजी बीस रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 698,
+    "text": "लसुनको २० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 699,
+    "text": "आज मुला प्रतिकेजी चालीस रुपैयाँ छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 700,
+    "text": "बेसारको १२० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 701,
+    "text": "साग प्रतिकेजी चालीस रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 702,
+    "text": "बोडीको १५० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 703,
+    "text": "धान बेचेर दस हजार रुपैयाँ पाएँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 704,
+    "text": "आज अङ्गुर प्रतिकेजी सत्तरी रुपैयाँ पर्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 705,
+    "text": "आज भान्टा 100 रुपैयाँ किलोमा किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 706,
+    "text": "रायोको २० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 707,
+    "text": "आज भिन्डी 80 रुपैयाँ किलोमा किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 708,
+    "text": "आज बेसार 500 रुपैयाँ किलोमा किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 709,
+    "text": "बोडीको ६० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 710,
+    "text": "गोलभेडाको ८० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 711,
+    "text": "बन्दाको ३०० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 712,
+    "text": "आज प्याज 20 रुपैयाँ किलोमा किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 713,
+    "text": "गोलभेडा प्रतिकेजी तीस रुपैयाँमा बेचिन्छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 714,
+    "text": "खुर्सानीको २० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 715,
+    "text": "आज खुर्सानी किन्न 20 रुपैयाँ खर्च भयो।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 716,
+    "text": "च्याउको ८० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 717,
+    "text": "गोलभेडाको ७० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 718,
+    "text": "बजारमा बोडीको मूल्य स्थिर छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 719,
+    "text": "आज आलु प्रतिकेजी नब्बे रुपैयाँ छ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 720,
+    "text": "अदुवाको १००० रुपैयाँ तिरेर किनेँ।",
+    "domain": "prices",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 721,
+    "text": "आज कक्षामा शिक्षकले गीत सुनाउनुभयो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 722,
+    "text": "बिहान म बगैंचामा पानी हाल्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 723,
+    "text": "आज मैले घरको बगैंचामा फूल रोपेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 724,
+    "text": "बहिनीले परीक्षामा राम्रो नतिजा ल्याइन्।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 725,
+    "text": "आज मैले आमालाई काममा सहयोग गरेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 726,
+    "text": "बहिनीले फूलको बगैंचा सिँचाइ गरिन्।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 727,
+    "text": "म दिउँसो आराम गरेर किताब पढ्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 728,
+    "text": "हामी शनिबार बजार गएर किनमेल गर्छौं।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 729,
+    "text": "आज मैले बजारबाट नयाँ किताब किनेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 730,
+    "text": "म साँझपख बगैंचामा बस्न मन पराउँछु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 731,
+    "text": "दाइले मलाई साइकल चलाउन सिकायो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 732,
+    "text": "दिउँसो म साथीसँग गफ गर्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 733,
+    "text": "आज मैले धेरै पानी पिएँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 734,
+    "text": "बुबाले मलाई नयाँ जुत्ता किनिदिनुभयो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 735,
+    "text": "बिहान म दूध र रोटी खान्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 736,
+    "text": "मेरो दाइले मलाई किताब पढ्न सहयोग गर्छ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 737,
+    "text": "मेरो साथीले मलाई नयाँ गीत सुनायो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 738,
+    "text": "दाइले आफ्नो कोठा आफैं सफा गर्छ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 739,
+    "text": "बेलुका हामी सबै मिलेर टेलिभिजन हेर्छौं।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 740,
+    "text": "मेरो मनपर्ने खाना दाल भात हो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 741,
+    "text": "आज मैले साथीलाई चिठी लेखेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 742,
+    "text": "आज मैले आफ्नो किताब साथीलाई दिएँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 743,
+    "text": "आज कक्षामा शिक्षकले कथा सुनाउनुभयो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 744,
+    "text": "हामीले बेलुका सँगै खाना खायौं।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 745,
+    "text": "आज हामीले घरमा दाल भात खायौं।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 746,
+    "text": "आज मैले घरको आँगन सफा गरेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 747,
+    "text": "म बिहान चिया पिएर विद्यालय जान्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 748,
+    "text": "म बिहान व्यायाम गरेर ताजा हुन्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 749,
+    "text": "हामीले घरमा सँगै दाल भात पकायौं।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 750,
+    "text": "आमाले दाल भात पकाउनुभयो आज।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 751,
+    "text": "म बेलुका परिवारसँग बसेर खाना खान्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 752,
+    "text": "आज मैले आफ्नो गृहकार्य समयमै सकेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 753,
+    "text": "आज मैले बजारमा साथीलाई भेटेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 754,
+    "text": "मेरो मनपर्ने रङ निलो हो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 755,
+    "text": "बिहान म नुहाएर विद्यालय जान्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 756,
+    "text": "हामी बेलुका सँगै बसेर कुरा गर्छौं।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 757,
+    "text": "म बेलुका आँगनमा साथीहरूसँग खेल्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 758,
+    "text": "बिहान उठेर म पहिले हात मुख धुन्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 759,
+    "text": "म दिउँसो घरमा आराम गरेर संगीत सुन्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 760,
+    "text": "बेलुका म परिवारसँग समय बिताउँछु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 761,
+    "text": "बेलुका म साथीहरूसँग कुरा गर्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 762,
+    "text": "मेरो साथीले मलाई फुटबल खेल्न बोलायो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 763,
+    "text": "जाडोमा म न्यानो लुगा लगाउँछु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 764,
+    "text": "विद्यालयमा आज नयाँ पाठ पढ्न थालियो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 765,
+    "text": "विद्यालयमा आज नयाँ शिक्षक आउनुभयो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 766,
+    "text": "म दिउँसो साथीको घरमा जान्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 767,
+    "text": "हामी बेलुका सँगै हिँड्न जान्छौं।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 768,
+    "text": "मेरो साथीले मलाई किताब दियो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 769,
+    "text": "राति चाँडै सुत्नुपर्छ भोलि विद्यालय छ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 770,
+    "text": "मेरो दाइले नयाँ काम पायो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 771,
+    "text": "म बेलुका दूध पिएर सुत्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 772,
+    "text": "दाइ सहरबाट भोलि घर आउँछ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 773,
+    "text": "आज मैले आफ्नो लुगा आफैं धुएँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 774,
+    "text": "आमाले बिरामी हुँदा औषधि खुवाउनुभयो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 775,
+    "text": "म बिहान पानी ल्याउन धारामा गएँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 776,
+    "text": "बुबाले साँझपख खेतबाट घर फर्कनुभयो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 777,
+    "text": "आज मैले नयाँ लुगा किनेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 778,
+    "text": "आज मैले आफ्नो कोठाको झ्याल सफा गरेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 779,
+    "text": "मेरो साथीको घर बजार नजिकै छ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 780,
+    "text": "आमाले बिहान तरकारी किनेर ल्याउनुभयो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 781,
+    "text": "आज मैले नयाँ गीत सुनेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 782,
+    "text": "म बजार गएर सामान किनेर आएँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 783,
+    "text": "बिरालोले दूध पिउन मन पराउँछ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 784,
+    "text": "म फुटबल खेल्न मन पराउँछु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 785,
+    "text": "म विद्यालयमा नयाँ साथी बनाएँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 786,
+    "text": "राति म चाँडै सुत्न जान्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 787,
+    "text": "विद्यालयबाट फर्किएर म खाजा खान्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 788,
+    "text": "आज कक्षामा नयाँ पाठ पढियो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 789,
+    "text": "आज मैले घरको काम सकेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 790,
+    "text": "दिउँसोको खाना खाएर आराम गरेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 791,
+    "text": "आज मैले साथीहरूसँग पार्कमा खेलेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 792,
+    "text": "म बेलुका गीत सुनेर आराम गर्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 793,
+    "text": "म बिहान पानी ताताएर नुहाउँछु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 794,
+    "text": "म फोनमा आमासँग कुरा गर्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 795,
+    "text": "म बेलुका साथीहरूसँग गफ गर्न मन पराउँछु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 796,
+    "text": "आज मैले बिहानै उठेर पढ्न थालेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 797,
+    "text": "बहिनीले विद्यालयमा राम्रो नतिजा ल्याइन्।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 798,
+    "text": "राति सुत्नुअघि म पानी पिउँछु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 799,
+    "text": "मेरो घरमा एउटा कुकुर छ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 800,
+    "text": "खाना खाएर म साथीसँग खेल्न जान्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 801,
+    "text": "म बेलुका हात धुएर खाना खान्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 802,
+    "text": "मेरो दाइले बजारबाट नयाँ किताब ल्यायो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 803,
+    "text": "बहिनी क्रिकेट खेल्न मन पराउँछिन्।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 804,
+    "text": "आमाले बेलुकाको खाना तयार गर्नुभयो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 805,
+    "text": "बिहानको खाजा रोटी र तरकारी हो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 806,
+    "text": "आज मौसम राम्रो भएकाले घुम्न गयौं।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 807,
+    "text": "खाना खाएपछि म बारीमा घुम्न जान्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 808,
+    "text": "म साइकल चढेर बजार जान्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 809,
+    "text": "राति सुत्नुअघि म आफ्नो झोला तयार गर्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 810,
+    "text": "म दिउँसो साथीको घरमा गएर खेल्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 811,
+    "text": "बेलुकाको खानामा तरकारी र रोटी थियो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 812,
+    "text": "बिहान उठेर म पहिले पानी पिउँछु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 813,
+    "text": "बहिनीले घरको काममा सहयोग गरिन्।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 814,
+    "text": "बुबाले बजारबाट तरकारी र फलफूल ल्याउनुभयो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 815,
+    "text": "मेरो साथी आज बिरामी भएर घर बस्यो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 816,
+    "text": "आज मैले साथीसँग बजारमा किनमेल गरेँ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 817,
+    "text": "मेरो साथीको घर हाम्रो टोलमा छ।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 818,
+    "text": "आमाले मलाई नयाँ कथा सुनाउनुभयो।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 819,
+    "text": "म बिहान उठेर पढ्न थाल्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 820,
+    "text": "म बेलुका टेलिभिजनमा समाचार हेर्छु।",
+    "domain": "daily-life",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 821,
+    "text": "हामीसँग पाँच वटा कुखुरा छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 822,
+    "text": "आज ३० किलो कोदो बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 823,
+    "text": "परीक्षा 50 बजे सुरु हुन्छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 824,
+    "text": "आज बजारमा ५ किलो काउली किनेँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 825,
+    "text": "कक्षामा 3 वटा बेञ्च छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 826,
+    "text": "मैले दस वटा किताब किनेँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 827,
+    "text": "गाउँबाट सहर बाह्र घण्टाको बाटो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 828,
+    "text": "रायोको तौल 100 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 829,
+    "text": "बारीमा दस वटा सुन्तलाका बोट छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 830,
+    "text": "आज ३० किलो उखु बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 831,
+    "text": "आज साठ पटक फोन आयो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 832,
+    "text": "आज बजारमा १२ किलो बेसार किनेँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 833,
+    "text": "कुखुराले पच्चीस वटा अण्डा पार्यो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 834,
+    "text": "आज ७ किलो जौ बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 835,
+    "text": "बारीमा एक सय वटा निबुवाका बोट छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 836,
+    "text": "बारीमा सात वटा जुनारका बोट छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 837,
+    "text": "बारीमा साठ वटा अङ्गुरका बोट छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 838,
+    "text": "आज १० वटा अण्डा बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 839,
+    "text": "परीक्षा 40 बजे सुरु हुन्छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 840,
+    "text": "आज बजारमा ५० किलो मुला किनेँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 841,
+    "text": "गाईले 7 लिटर दूध दियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 842,
+    "text": "आज ४० किलो चामल किनेँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 843,
+    "text": "आज ६० किलो गहुँ बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 844,
+    "text": "आज बजारमा १५ किलो साग किनेँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 845,
+    "text": "आज २० किलो चना बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 846,
+    "text": "करेलाको तौल 12 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 847,
+    "text": "आज १२ किलो गहुँ बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 848,
+    "text": "आज पाँच वटा रोटी पकाएँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 849,
+    "text": "परीक्षा 5 बजे सुरु हुन्छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 850,
+    "text": "आलुको तौल 100 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 851,
+    "text": "घरमा चालीस जना मानिस बस्छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 852,
+    "text": "हामीले चालीस दिनमा खेत जोत्यौं।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 853,
+    "text": "बारीमा तीस वटा आँपका बोट छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 854,
+    "text": "बारीमा पचास वटा कागतीका बोट छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 855,
+    "text": "बारीमा चालीस वटा मेवाका बोट छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 856,
+    "text": "रायोको तौल 15 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 857,
+    "text": "आज बजारमा ५०० किलो बोडी किनेँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 858,
+    "text": "आलुको तौल 30 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 859,
+    "text": "कुखुराले तीन वटा अण्डा पार्यो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 860,
+    "text": "आज ३० किलो अलस बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 861,
+    "text": "हामीसँग चालीस वटा भैंसी छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 862,
+    "text": "खुर्सानीको तौल 40 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 863,
+    "text": "कक्षामा दुई सय पचास जना विद्यार्थी छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 864,
+    "text": "मुलाको तौल 50 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 865,
+    "text": "आज ३० वटा अण्डा बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 866,
+    "text": "बजारमा २० दर्जन केरा किनेँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 867,
+    "text": "तरकारी 50 किलो बजारमा पुर्‍याएँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 868,
+    "text": "फर्सीको तौल 5 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 869,
+    "text": "आज ६० किलो उखु बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 870,
+    "text": "दूध १०० लिटर बेचियो आज।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 871,
+    "text": "आज बजारमा ३० किलो प्याज किनेँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 872,
+    "text": "बारीमा तीन वटा अम्बाका बोट छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 873,
+    "text": "आज २५ वटा अण्डा बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 874,
+    "text": "भिन्डीको तौल 40 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 875,
+    "text": "मैले 50 वटा सन्देश पठाएँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 876,
+    "text": "हामीसँग बाह्र वटा बाख्रा छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 877,
+    "text": "खेतमा 10 रोपनी उखु रोपिएको छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 878,
+    "text": "आज ४० किलो मकै बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 879,
+    "text": "खेतमा 5 रोपनी भटमास रोपिएको छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 880,
+    "text": "बजार 12 किलोमिटर टाढा छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 881,
+    "text": "आज साठ वटा रोटी पकाएँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 882,
+    "text": "बारीमा बीस वटा अनारका बोट छन्।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 883,
+    "text": "भान्टाको तौल 100 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 884,
+    "text": "हामीले 500 किलो आलु खन्यौं।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 885,
+    "text": "आज १०० किलो तोरी बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 886,
+    "text": "मैले साठ वटा किताब किनेँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 887,
+    "text": "अदुवाको तौल 15 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 888,
+    "text": "आज २५० किलो अलस बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 889,
+    "text": "आज बजारमा १०० किलो रायो किनेँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 890,
+    "text": "आलुको तौल 50 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 891,
+    "text": "आज २५ किलो चना बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 892,
+    "text": "रायोको तौल 20 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 893,
+    "text": "आज १५ किलो सिमी बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 894,
+    "text": "हामीसँग २० किलो बीउ छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 895,
+    "text": "मैले 30 वटा सन्देश पठाएँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 896,
+    "text": "गोलभेडाको तौल 100 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 897,
+    "text": "आज ३ किलो सिमी बेचियो।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 898,
+    "text": "आज २५ बजे उठेर काम थालेँ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 899,
+    "text": "लसुनको तौल 60 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 900,
+    "text": "रायोको तौल 40 किलो छ।",
+    "domain": "numbers",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 901,
+    "text": "कात्तिक ५ गते छठ पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 902,
+    "text": "मेरो जन्मदिन फागुन २० गते हो।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 903,
+    "text": "स्वास्थ्य शिविर बैशाख २८ गते हुन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 904,
+    "text": "भोलि बैशाख १० गते हो।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 905,
+    "text": "विद्यालय कात्तिक २ गते खुल्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 906,
+    "text": "साउन १ गते विद्यालयमा कार्यक्रम छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 907,
+    "text": "चैत १५ गते घोडेजात्रा पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 908,
+    "text": "चैत १२ गते विद्यालयमा कार्यक्रम छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 909,
+    "text": "परीक्षा भदौ १० गतेदेखि सुरु हुन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 910,
+    "text": "यस वर्ष बुद्ध जयन्तीमा घर जान्छु।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 911,
+    "text": "स्वास्थ्य शिविर कात्तिक ५ गते हुन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 912,
+    "text": "बहिनीको जन्मदिन जेठ २५ गते हो।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 913,
+    "text": "साउन १० गते गाईजात्रा पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 914,
+    "text": "गाईजात्रा काठमाडौं उपत्यकामा मात्र मनाइन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 915,
+    "text": "माघ २ गते विद्यालयमा कार्यक्रम छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 916,
+    "text": "कात्तिक ७ गते छठ पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 917,
+    "text": "मेरो जन्मदिन भदौ १५ गते हो।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 918,
+    "text": "गाउँको मेला असार १५ गते लाग्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 919,
+    "text": "खेलकुद बैशाख ५ गते सुरु हुन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 920,
+    "text": "चैत महिनाको अन्तिम बुधबार बिदा हुन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 921,
+    "text": "बहिनीको जन्मदिन मंसिर १ गते हो।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 922,
+    "text": "बुबाको जन्मदिन चैत १२ गते हो।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 923,
+    "text": "स्वास्थ्य शिविर फागुन १ गते हुन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 924,
+    "text": "आमाको जन्मदिन कात्तिक २५ गते हो।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 925,
+    "text": "तीजको बिदा एक दिनको हुन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 926,
+    "text": "बैशाख महिनामा बुद्ध जयन्ती मनाइन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 927,
+    "text": "खेलकुद जेठ २५ गते सुरु हुन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 928,
+    "text": "बैशाख १२ गते मेरो साथीको विवाह छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 929,
+    "text": "भदौ १५ गते कृष्ण जन्माष्टमी पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 930,
+    "text": "हिजो असार ५ गते थियो।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 931,
+    "text": "आज कात्तिक १० गते हो।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 932,
+    "text": "मेरो दाइको जन्मदिन पुस २ गते हो।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 933,
+    "text": "फागुनको पहिलो सोमबार व्रत बसिन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 934,
+    "text": "भदौ २० गते तीज पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 935,
+    "text": "बुबाको जन्मदिन पुस ७ गते हो।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 936,
+    "text": "साउन ५ गते गाईजात्रा पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 937,
+    "text": "भर्ना असार १५ गतेदेखि खुल्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 938,
+    "text": "भदौ १० गते इन्द्रजात्रा पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 939,
+    "text": "साउन महिनामा सोमबारको व्रत बसिन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 940,
+    "text": "कृष्ण जन्माष्टमी भदौ महिनामा मनाइन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 941,
+    "text": "फागुन १५ गते होली पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 942,
+    "text": "हिजो पुस २५ गते थियो।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 943,
+    "text": "भर्ना चैत १५ गतेदेखि खुल्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 944,
+    "text": "माघको पहिलो आइतबार व्रत बसिन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 945,
+    "text": "आज असोज ३ गते हो।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 946,
+    "text": "बैशाख १० गते बुद्ध जयन्ती पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 947,
+    "text": "कात्तिक १० गते छठ पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 948,
+    "text": "भदौ ३ गते तीज पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 949,
+    "text": "बैशाख महिनाको अन्तिम सोमबार बिदा हुन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 950,
+    "text": "भदौ ५ गते तीज पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 951,
+    "text": "अस्ति शुक्रबार गाउँमा मेला लाग्यो।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 952,
+    "text": "साउन महिनामा हरियो चुरा लगाइन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 953,
+    "text": "बजार शुक्रबार र शनिबार लाग्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 954,
+    "text": "साउन ५ गते मेरो साथीको विवाह छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 955,
+    "text": "बुद्ध जयन्तीको दिन विद्यालय बिदा हुन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 956,
+    "text": "विद्यालय साउन १५ गते खुल्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 957,
+    "text": "साउन १५ गते गाईजात्रा पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 958,
+    "text": "कात्तिक १५ गते छठ पर्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 959,
+    "text": "विद्यालय बैशाख २८ गते खुल्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 960,
+    "text": "पर्सि बुधबार विद्यालय बिदा हुन्छ।",
+    "domain": "dates",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 961,
+    "text": "हाम्रो विद्यालय जुम्लाको ७ नम्बर वडामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 962,
+    "text": "हाम्रो टोल विराटनगर नगरपालिकाको १६ नम्बर वडामा पर्छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 963,
+    "text": "स्वास्थ्य चौकी विराटनगरको १० नम्बर वडामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 964,
+    "text": "मेरो घर धादिङ-१४, धादिङमा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 965,
+    "text": "हाम्रो गाउँ धनगढी-९, कैलालीमा पर्छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 966,
+    "text": "वडा कार्यालय लमजुङको बजार नजिकै छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 967,
+    "text": "विद्यालय बाँके जिल्लाको नेपालगन्जमा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 968,
+    "text": "विद्यालय विराटनगर-६, मोरङ जिल्लामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 969,
+    "text": "हाम्रो गाउँ सुर्खेत-११, सुर्खेतमा पर्छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 970,
+    "text": "हाम्रो गाउँ इटहरी-३, सुनसरीमा पर्छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 971,
+    "text": "स्वास्थ्य चौकी गौरको १७ नम्बर वडामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 972,
+    "text": "विद्यालय भरतपुर-१२, चितवन जिल्लामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 973,
+    "text": "हाम्रो विद्यालय बुटवलको १४ नम्बर वडामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 974,
+    "text": "हाम्रो गाउँ पोखरा-८, कास्कीमा पर्छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 975,
+    "text": "हाम्रो वडा गोरखा नगरपालिकामा पर्छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 976,
+    "text": "मेरो घर सिरहा जिल्लाको लहानमा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 977,
+    "text": "बजार जाने बाटो पोखरा हुँदै जान्छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 978,
+    "text": "हाम्रो टोल बैतडी नगरपालिकाको १७ नम्बर वडामा पर्छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 979,
+    "text": "म धनगढीको ११ नम्बर वडामा बस्छु।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 980,
+    "text": "हाम्रो विद्यालय डोटीको १७ नम्बर वडामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 981,
+    "text": "विद्यालय राजविराज-५, सप्तरी जिल्लामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 982,
+    "text": "विद्यालय घोराही-७, दाङ जिल्लामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 983,
+    "text": "हाम्रो विद्यालय बेनीको १ नम्बर वडामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 984,
+    "text": "धनकुटाको बजारमा हरेक हप्ता मेला लाग्छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 985,
+    "text": "स्वास्थ्य चौकी बिर्तामोडको ११ नम्बर वडामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 986,
+    "text": "मेरो घर विराटनगर बजारदेखि अलि टाढा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 987,
+    "text": "हाम्रो विद्यालय इटहरीको १२ नम्बर वडामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 988,
+    "text": "मेरो घर बारा जिल्लाको कलैयामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 989,
+    "text": "हाम्रो विद्यालय इलामको ५ नम्बर वडामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 990,
+    "text": "विद्यालय गोरखा-१७, गोरखा जिल्लामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 991,
+    "text": "मेरो घर धनगढी-२, कैलालीमा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 992,
+    "text": "स्वास्थ्य चौकी जुम्लाको बजार नजिकै छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 993,
+    "text": "हाम्रो विद्यालय लमजुङको ६ नम्बर वडामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 994,
+    "text": "हामी वीरगन्जको १३ नम्बर वडामा बस्छौं।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 995,
+    "text": "मेरो घर झापा जिल्लाको दमकमा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 996,
+    "text": "हाम्रो टोल पोखरा नगरपालिकाको १० नम्बर वडामा पर्छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 997,
+    "text": "हाम्रो घर बैतडीको १६ नम्बर वडामा पर्छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 998,
+    "text": "हाम्रो गाउँ स्याङ्जा-५, स्याङ्जामा पर्छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 999,
+    "text": "स्वास्थ्य चौकी स्याङ्जाको ३ नम्बर वडामा छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 1000,
+    "text": "बागलुङको बजारमा हरेक शनिबार भीड हुन्छ।",
+    "domain": "addresses",
+    "language": "ne",
+    "source": "original"
+  },
+  {
+    "id": 1001,
+    "text": "आज office को deadline छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1002,
+    "text": "school को homework गर्न बाँकी छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1003,
+    "text": "म office बाट ढिलो आउँछु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1004,
+    "text": "Please मलाई यो link send गर्नुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1005,
+    "text": "मेरो phone को mic काम गरेन।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1006,
+    "text": "आज exam को result आयो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1007,
+    "text": "school मा sports day छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1008,
+    "text": "मलाई hospital जानुपर्छ, appointment छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1009,
+    "text": "आज school मा annual function छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1010,
+    "text": "आज internet छैन, काम रोकियो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1011,
+    "text": "मेरो phone को battery low छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1012,
+    "text": "म mobile मा YouTube हेर्छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1013,
+    "text": "म office को work घरबाट गर्छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1014,
+    "text": "आज hospital बाट report आयो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1015,
+    "text": "मेरो phone को update गर्नुपर्छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1016,
+    "text": "आज exam hall मा जानुपर्छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1017,
+    "text": "आज exam को preparation गर्नुपर्छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1018,
+    "text": "म laptop मा movie हेर्छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1019,
+    "text": "म laptop मा presentation बनाउँछु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1020,
+    "text": "Please मेरो flight को ticket confirm गर्नुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1021,
+    "text": "मेरो mobile को internet pack सकियो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1022,
+    "text": "म laptop मा assignment गर्छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1023,
+    "text": "आज meeting को time change भयो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1024,
+    "text": "मलाई यो video share गर्नुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1025,
+    "text": "म mobile मा Facebook चलाउँछु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1026,
+    "text": "म online class मा join गरेँ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1027,
+    "text": "आज school मा parent meeting छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1028,
+    "text": "मेरो mobile मा notification आयो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1029,
+    "text": "मेरो mobile मा app update गर्नुपर्छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1030,
+    "text": "म school को van मा जान्छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1031,
+    "text": "म mobile data बाट internet चलाउँछु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1032,
+    "text": "म hospital को appointment लिनुपर्छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1033,
+    "text": "मेरो mobile को storage भरियो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1034,
+    "text": "delivery आज आउँछ भन्ने छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1035,
+    "text": "मेरो SIM मा recharge गर्नुपर्छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1036,
+    "text": "म bus stop मा पर्खिरहेको छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1037,
+    "text": "मेरो laptop को battery सकियो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1038,
+    "text": "मेरो email मा नयाँ message आयो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1039,
+    "text": "Please मलाई यो shop को address बताउनुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1040,
+    "text": "Please मलाई यो address map मा देखाउनुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1041,
+    "text": "म bus ticket online किन्छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1042,
+    "text": "मेरो laptop मा file save भएन।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1043,
+    "text": "Please मलाई यो ticket को price बताउनुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1044,
+    "text": "आज class मा project present गर्नुपर्छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1045,
+    "text": "internet slow भएर काम भएन।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1046,
+    "text": "मेरो phone को volume बढाउनुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1047,
+    "text": "म online बाट order गरेँ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1048,
+    "text": "आज meeting मा join गर्नुपर्छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1049,
+    "text": "मलाई यो document print गर्नुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1050,
+    "text": "मेरो laptop को keyboard बिग्रियो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1051,
+    "text": "आज office मा interview छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1052,
+    "text": "आज class मा test थियो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1053,
+    "text": "मेरो mobile मा location on गर्नुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1054,
+    "text": "म laptop मा online form भर्छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1055,
+    "text": "मलाई यो app install गर्नुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1056,
+    "text": "मेरो phone को camera राम्रो छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1057,
+    "text": "आज class मा group discussion थियो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1058,
+    "text": "मलाई यो photo send गर्नुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1059,
+    "text": "मेरो phone को speaker बिग्रियो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1060,
+    "text": "आज hospital मा blood test छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1061,
+    "text": "Please मलाई यो number save गर्नुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1062,
+    "text": "आज hospital मा checkup छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1063,
+    "text": "आज office मा leave लिएँ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1064,
+    "text": "मेरो laptop मा charger connect भएन।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1065,
+    "text": "मलाई bank जानुपर्छ, ATM बाट पैसा निकाल्न।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1066,
+    "text": "Please यो photo edit गर्नुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1067,
+    "text": "मेरो bank account मा पैसा आयो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1068,
+    "text": "म bus मा चढेर school जान्छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1069,
+    "text": "मेरो phone मा data सकियो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1070,
+    "text": "Please यो video play गर्नुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1071,
+    "text": "म bus को seat book गर्न चाहन्छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1072,
+    "text": "आज office को काम धेरै छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1073,
+    "text": "आज meeting मा presentation दिनुपर्छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1074,
+    "text": "आज hospital मा doctor भेट्नुपर्छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1075,
+    "text": "म online बाट ticket book गर्छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1076,
+    "text": "मेरो mobile को SIM हरायो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1077,
+    "text": "आज school मा program छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1078,
+    "text": "मेरो mobile को charger हरायो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1079,
+    "text": "मेरो phone मा photo धेरै भयो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1080,
+    "text": "Please यो message delete गर्नुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1081,
+    "text": "म class मा notes लेख्छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1082,
+    "text": "आज office मा salary आयो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1083,
+    "text": "म laptop मा code लेख्छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1084,
+    "text": "wifi को password के हो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1085,
+    "text": "म school को fee तिर्नुपर्छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1086,
+    "text": "Please यो email forward गर्नुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1087,
+    "text": "मेरो email को password बिर्सिएँ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1088,
+    "text": "मेरो phone मा call आयो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1089,
+    "text": "मेरो phone मा alarm लगाउनुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1090,
+    "text": "म mobile मा news पढ्छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1091,
+    "text": "मेरो mobile मा network छैन।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1092,
+    "text": "मेरो phone मा balance check गर्नुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1093,
+    "text": "म laptop मा email check गर्छु।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1094,
+    "text": "Please मलाई यो message पढेर सुनाउनुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1095,
+    "text": "मेरो phone को screen फुट्यो।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1096,
+    "text": "आज office मा training छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1097,
+    "text": "आज exam को admit card चाहिन्छ।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1098,
+    "text": "Please मेरो ticket cancel गरिदिनुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1099,
+    "text": "Please यो file download गर्नुहोस्।",
+    "domain": "code-switched",
+    "language": "ne-en",
+    "source": "original"
+  },
+  {
+    "id": 1100,
+    "text": "मेरो laptop को screen मा scratch छ।",
     "domain": "code-switched",
     "language": "ne-en",
     "source": "original"

@@ -1,0 +1,36 @@
+services:
+  # API: FastAPI backend, served by uvicorn (ASGI — no a2wsgi needed here).
+  - type: web
+    name: nepali-speech-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0
+      # SQLite file under DATA_DIR (default when DATABASE_URL is unset).
+      # Free Render has NO persistent disk: data lives on the ephemeral
+      # filesystem and is lost on every redeploy/restart. See
+      # docs/deploy-render.md — this fallback is for reachability, not
+      # durable collection, unless a paid disk is added.
+      - key: DATA_DIR
+        value: /opt/render/project/src/data
+      - key: ADMIN_EMAILS
+        value: samirshirjan890@gmail.com
+
+  # Frontend: React PWA as a Render static site (free, and static sites do
+  # not consume the 750 free instance hours). It is a separate service
+  # because the backend is an API-only FastAPI app: serving the SPA from
+  # the same service would need main.py changes, which Phase 2 avoids.
+  # VITE_API_URL is injected at BUILD time, so it must be the final public
+  # API URL; if the API service is renamed, update it here and redeploy.
+  - type: web
+    name: nepali-speech-web
+    runtime: static
+    plan: free
+    buildCommand: cd frontend && npm ci && npm run build
+    staticPublishPath: frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://nepali-speech-api.onrender.com

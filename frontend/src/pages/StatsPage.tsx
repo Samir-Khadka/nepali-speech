@@ -1,11 +1,27 @@
 import { useState } from 'react';
 import { ApiError, fetchAdminStats, type AdminStats } from '../api';
 
+/** AdminStats plus the Phase 2 coverage fields from GET /api/admin/stats. */
+interface CoverageStats extends AdminStats {
+  by_province: Record<string, number>;
+  by_gender: Record<string, number>;
+  by_age_range: Record<string, number>;
+  hours_estimate: {
+    approved_hours: number;
+    recorded_hours: number;
+    hours_basis: string;
+  };
+}
+
+function sortedEntries(record: Record<string, number>) {
+  return Object.entries(record).sort((a, b) => b[1] - a[1]);
+}
+
 export default function StatsPage() {
   const [email, setEmail] = useState<string>(
     () => localStorage.getItem('ns-admin-email') ?? '',
   );
-  const [stats, setStats] = useState<AdminStats | null>(null);
+  const [stats, setStats] = useState<CoverageStats | null>(null);
   const [loading, setLoading] = useState(false);
   const [apiDown, setApiDown] = useState(false);
   const [notAdmin, setNotAdmin] = useState(false);
@@ -21,7 +37,7 @@ export default function StatsPage() {
     setNotAdmin(false);
     setError(null);
     try {
-      const data = await fetchAdminStats(adminEmail);
+      const data = (await fetchAdminStats(adminEmail)) as CoverageStats;
       setStats(data);
     } catch (err) {
       if (err instanceof TypeError) setApiDown(true);
@@ -133,6 +149,63 @@ export default function StatsPage() {
                 {Object.entries(stats.by_domain).map(([domain, count]) => (
                   <tr key={domain}>
                     <td>{domain}</td>
+                    <td>{count}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="card">
+            <h2>अनुमानित घण्टा · Hours (estimate)</h2>
+            <p className="muted">{stats.hours_estimate.hours_basis}</p>
+            <div className="stat-grid">
+              <div className="stat-chip">
+                <strong>{stats.hours_estimate.approved_hours}</strong>
+                स्वीकृत घण्टा (अनुमान) · Approved hours (estimate)
+              </div>
+              <div className="stat-chip">
+                <strong>{stats.hours_estimate.recorded_hours}</strong>
+                रेकर्ड गरिएका घण्टा (अनुमान) · Recorded hours (estimate)
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <h2>प्रदेश अनुसार · By province</h2>
+            <table className="stats-table">
+              <tbody>
+                {sortedEntries(stats.by_province).map(([province, count]) => (
+                  <tr key={province}>
+                    <td>{province}</td>
+                    <td>{count}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="card">
+            <h2>लिङ्ग अनुसार · By gender</h2>
+            <table className="stats-table">
+              <tbody>
+                {sortedEntries(stats.by_gender).map(([gender, count]) => (
+                  <tr key={gender}>
+                    <td>{gender}</td>
+                    <td>{count}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="card">
+            <h2>उमेर समूह अनुसार · By age range</h2>
+            <table className="stats-table">
+              <tbody>
+                {sortedEntries(stats.by_age_range).map(([ageRange, count]) => (
+                  <tr key={ageRange}>
+                    <td>{ageRange}</td>
                     <td>{count}</td>
                   </tr>
                 ))}

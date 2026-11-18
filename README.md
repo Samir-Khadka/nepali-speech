@@ -13,6 +13,24 @@ no audio has been collected yet.**
 
 Repository: https://github.com/Samir-Khadka/nepali-speech
 
+## Deployment
+
+- **Live target (Phase 2): PythonAnywhere free tier** —
+  `https://samirkhadka.pythonanywhere.com` (username permitting). No card
+  required; the whole tool (API + frontend) runs as one WSGI app — see
+  [`docs/deploy-pythonanywhere.md`](docs/deploy-pythonanywhere.md).
+- **Fallback (from 1 Dec 2026): Render free tier** — API + static site via
+  the Blueprint in `deploy/render.yaml`; see
+  [`docs/deploy-render.md`](docs/deploy-render.md). Render free services
+  are suspended workspace-wide until 1 Dec, and free Render has no
+  persistent disk, so it is a reachability fallback, not the durable home
+  for collected data.
+- **Disk ceiling:** PythonAnywhere free gives 512 MB. 50 h of Opus audio
+  ≈ 360 MB, so Phase 2 fits but only just — export recordings regularly
+  and never let the disk fill (new uploads fail while old recordings stay).
+  Do not point 5-minute uptime pings at the free services: that is what
+  likely burned Render's 750 free instance hours.
+
 ## Why this exists
 
 Nepali ASR today is trained almost entirely on clean, read speech. What is

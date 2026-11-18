@@ -381,6 +381,33 @@ def create_app(
                 if len(decisions) == 2 and decisions[0] == decisions[1]:
                     agree += 1
             agreement_rate = agree / double_reviewed
+        # Coverage: recordings grouped by the contributor's demographics.
+        # Blank/missing values fall into an "unspecified" bucket.
+        def _coverage(field):
+            buckets: dict[str, int] = {}
+            for value, count in (
+                db.query(field, func.count(Recording.id))
+                .join(Contributor, Contributor.id == Recording.contributor_id)
+                .group_by(field)
+                .all()
+            ):
+                key = (value or "").strip() or "unspecified"
+                buckets[key] = buckets.get(key, 0) + count
+            return buckets
+
+        by_province = _coverage(Contributor.province)
+        by_gender = _coverage(Contributor.gender)
+        by_age_range = _coverage(Contributor.age_range)
+        # Hours are an ESTIMATE: ~5 seconds per recording (see hours_basis).
+        approved_count = by_status["approved"]
+        recorded_count = (db.query(func.count(Recording.id)).scalar() or 0) - by_status[
+            "rejected"
+        ]
+        hours_estimate = {
+            "approved_hours": round(approved_count * 5 / 3600, 4),
+            "recorded_hours": round(recorded_count * 5 / 3600, 4),
+            "hours_basis": "5s average per recording (estimate)",
+        }
         return {
             "prompts": db.query(func.count(Prompt.id)).scalar() or 0,
             "contributors": db.query(func.count(Contributor.id)).scalar() or 0,
@@ -390,6 +417,10 @@ def create_app(
             "double_reviewed": double_reviewed,
             "agreement_rate": agreement_rate,
             "by_domain": by_domain,
+            "by_province": by_province,
+            "by_gender": by_gender,
+            "by_age_range": by_age_range,
+            "hours_estimate": hours_estimate,
         }
 
     return app
