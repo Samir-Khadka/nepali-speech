@@ -22,7 +22,7 @@ contents with this file. The file must expose the WSGI callable as
 lives in ``/var/www`` instead of the repo, the repo root is resolved from
 ``NEPALI_SPEECH_ROOT`` if set, otherwise ``~/nepali-speech`` (the clone
 location in the deploy guide). If the repo was cloned elsewhere, set
-``NEPALI_SPEECH_ROOT`` to its path in the Web tab's environment variables.
+``NEPALI_SPEECH_ROOT`` to that path in the environment variables below.
 
 (If the Web tab ever lets you change the WSGI file path itself, pointing it
 directly at ``<repo>/deploy/pythonanywhere_wsgi.py`` also works: the file
@@ -38,6 +38,21 @@ imported, because importing ``backend.app.main`` creates the app (and its
 SQLite database) at import time.
 
 No outbound network calls are made by this wrapper or by the app.
+
+Lazy initialisation (uWSGI fork)
+--------------------------------
+PythonAnywhere's uWSGI loads this file in its master process and then forks
+workers. Threads created at import time do not survive fork, so creating
+the a2wsgi middleware (which starts its own event-loop thread) and running
+the FastAPI lifespan (which runs in its own thread) at import time leaves
+every worker with a dead event loop: every ``/health`` or ``/api`` request
+then hangs until uWSGI kills the worker with HARAKIRI. The middleware and
+the lifespan are therefore created lazily, on the first request in each
+worker process (see ``_ensure_asgi``), and re-created if the process id
+changes. The Web tab on this account has no Environment variables section,
+so ``DATA_DIR`` and ``ADMIN_EMAILS`` are set with ``os.environ.setdefault``
+just before the backend import below, which is PythonAnywhere's documented
+way to set them for a WSGI app.
 """
 
 import mimetypes
@@ -45,20 +60,13 @@ import os
 import sys
 from pathlib import Path
 
-# ---------------------------------------------------------------------------
-# Repo root on sys.path, so `backend.app.main` is importable.
-# ---------------------------------------------------------------------------
-
 _HERE = Path(__file__).resolve()
 _ENV_ROOT = os.environ.get("NEPALI_SPEECH_ROOT")
 if _ENV_ROOT:
     REPO_ROOT = Path(_ENV_ROOT).resolve()
 elif _HERE.parent.name == "deploy":
-    # Normal layout: <repo>/deploy/pythonanywhere_wsgi.py
     REPO_ROOT = _HERE.parent.parent
 else:
-    # File was copied elsewhere (e.g. /var/www/..._wsgi.py): fall back to the
-    # cloned repo location. Adjust NEPALI_SPEECH_ROOT if this is wrong.
     REPO_ROOT = Path.home() / "nepali-speech"
 
 if str(REPO_ROOT) not in sys.path:
@@ -66,30 +74,12 @@ if str(REPO_ROOT) not in sys.path:
 
 DIST_DIR = REPO_ROOT / "frontend" / "dist"
 
-# ---------------------------------------------------------------------------
-# The FastAPI app, wrapped as WSGI. Imported lazily inside a function would
-# hide import errors from PythonAnywhere's error log, so import at module
-# level: a broken import fails the reload loudly instead of silently.
-# ---------------------------------------------------------------------------
-
 from a2wsgi import ASGIMiddleware  # noqa: E402
 
-from backend.app.main import app as fastapi_app  # noqa: E402
+os.environ.setdefault("DATA_DIR", "/home/samirkhadka/nepali-speech/data")
+os.environ.setdefault("ADMIN_EMAILS", "samirshirjan890@gmail.com")
 
-# ---------------------------------------------------------------------------
-# Run the app's lifespan (create tables + seed prompts) explicitly.
-#
-# a2wsgi's ASGIMiddleware only ever calls the app with ``http`` scopes — it
-# never sends a ``lifespan`` scope. FastAPI's startup work lives in the
-# lifespan handler (``Base.metadata.create_all`` + ``seed_prompts`` in
-# ``backend/app/main.py``), so without this the SQLite tables would never be
-# created and every database endpoint would fail. We therefore drive the
-# lifespan protocol ourselves, once, in a daemon thread: send
-# ``lifespan.startup``, wait for ``startup.complete``, and leave the task
-# parked until process exit (it only wakes on a shutdown message, which a
-# WSGI worker never sends). This reuses main.py's lifespan code exactly —
-# nothing about table creation or seeding is duplicated here.
-# ---------------------------------------------------------------------------
+from backend.app.main import app as fastapi_app  # noqa: E402
 
 import asyncio  # noqa: E402
 import threading  # noqa: E402
@@ -113,7 +103,6 @@ def _run_lifespan(app, timeout: float = 30.0) -> None:
                 started.set()
 
         await queue.put({"type": "lifespan.startup"})
-        # Blocks until a shutdown message arrives (i.e. process exit).
         await app(
             {"type": "lifespan", "asgi": {"version": "3.0", "spec_version": "2.0"}},
             receive,
@@ -135,22 +124,30 @@ def _run_lifespan(app, timeout: float = 30.0) -> None:
         raise RuntimeError(f"FastAPI lifespan startup failed: {failure[0]}")
 
 
-_run_lifespan(fastapi_app)
+_asgi_app = None
+_asgi_pid = None
+_asgi_lock = threading.Lock()
 
-_asgi_app = ASGIMiddleware(fastapi_app)
 
-# ---------------------------------------------------------------------------
-# Static file serving for the built frontend.
-# ---------------------------------------------------------------------------
+def _ensure_asgi():
+    global _asgi_app, _asgi_pid
+    pid = os.getpid()
+    if _asgi_app is not None and _asgi_pid == pid:
+        return _asgi_app
+    with _asgi_lock:
+        if _asgi_app is not None and _asgi_pid == pid:
+            return _asgi_app
+        _run_lifespan(fastapi_app)
+        _asgi_app = ASGIMiddleware(fastapi_app)
+        _asgi_pid = pid
+        return _asgi_app
 
-# mimetypes knows .js/.css/.html/.svg, but be explicit about the ones Vite
-# emits that some systems miss.
+
 mimetypes.add_type("text/javascript", ".js")
 mimetypes.add_type("application/manifest+json", ".webmanifest")
 
 
 def _serve_file(path: Path, start_response, status="200 OK"):
-    """Serve one file from disk as a WSGI response."""
     content_type, _ = mimetypes.guess_type(str(path))
     if content_type is None:
         content_type = "application/octet-stream"
@@ -164,7 +161,6 @@ def _serve_file(path: Path, start_response, status="200 OK"):
 
 
 def _serve_index(start_response):
-    """Serve frontend/dist/index.html, or a clear 500 if the build is missing."""
     index = DIST_DIR / "index.html"
     if not index.is_file():
         body = (
@@ -180,9 +176,7 @@ def _serve_index(start_response):
 
 
 def application(environ, start_response):
-    """The WSGI callable PythonAnywhere imports."""
     raw_path = environ.get("PATH_INFO", "/") or "/"
-    # PATH_INFO is URL-decoded by the server; normalise and block traversal.
     path = "/" + raw_path.lstrip("/")
     if ".." in Path(path).parts:
         body = b"Not Found"
@@ -192,12 +186,9 @@ def application(environ, start_response):
         )
         return [body]
 
-    # --- API: hand off to FastAPI via a2wsgi. ------------------------------
     if path == "/health" or path.startswith("/api/") or path == "/api":
-        return _asgi_app(environ, start_response)
+        return _ensure_asgi()(environ, start_response)
 
-    # --- Static files from the frontend build. ------------------------------
-    # Map the request path onto frontend/dist/ ("/" -> "index.html").
     candidate = (DIST_DIR / path.lstrip("/")).resolve()
     if candidate.is_file() and DIST_DIR.resolve() in candidate.parents:
         if environ.get("REQUEST_METHOD", "GET") == "HEAD":
@@ -212,7 +203,6 @@ def application(environ, start_response):
             return []
         return _serve_file(candidate, start_response)
 
-    # A missing file under /assets/ is a broken build, not a route: 404.
     if path.startswith("/assets/"):
         body = b"Not Found"
         start_response(
@@ -221,7 +211,4 @@ def application(environ, start_response):
         )
         return [body]
 
-    # --- SPA fallback: everything else serves the app shell. ----------------
-    # HashRouter keeps routes after '#', so this only matters for a refresh
-    # or a pasted deep link; it is harmless either way.
     return _serve_index(start_response)

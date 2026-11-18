@@ -128,7 +128,11 @@ one exists at that path, and passes everything else (e.g. `/api/...`,
 
 ### Environment variables
 
-Scroll to **Environment variables** on the Web tab and add:
+The Web tab on a free Beginner account has **no Environment variables
+section** — so `DATA_DIR` and `ADMIN_EMAILS` are set in the WSGI file
+itself with `os.environ.setdefault`, just before the backend import (this
+is PythonAnywhere's documented way to set them for a WSGI app). The
+values in `deploy/pythonanywhere_wsgi.py` are:
 
 | Variable | Value |
 | --- | --- |
@@ -137,7 +141,9 @@ Scroll to **Environment variables** on the Web tab and add:
 
 Do NOT set `DATABASE_URL` — the default SQLite file under `DATA_DIR` is
 what this deploy uses. These variables must be set before the first load:
-the app creates its database and seeds the 200 prompts at import/startup.
+the app creates its database and seeds the 1,100 prompts at first request
+(the lifespan runs lazily — see the "Lazy initialisation" note in the
+WSGI file — because uWSGI forks workers after loading it).
 
 ## 4. Reload and smoke test
 
