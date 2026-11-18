@@ -1,0 +1,12 @@
+# Optional: only needed for `evaluate.py --transcribe` (local CPU smoke evals).
+# Installs openai-whisper + CPU torch. NOT installed in CI and NOT needed
+# to score an existing hypotheses file.
+#
+# IMPORTANT: install CPU-only torch FIRST, from the PyTorch CPU index.
+# A plain `pip install openai-whisper` pulls the default CUDA torch
+# (~2-3 GB of nvidia wheels) and is very slow through the sandbox proxy.
+#   pip install --index-url https://download.pytorch.org/whl/cpu torch
+#   pip install --no-deps openai-whisper==20250625 numpy tqdm more-itertools tiktoken numba
+# (triton is a whisper dependency that CPU-only use does not need; pip
+# will warn about it and the import still works.)
+openai-whisper==20250625

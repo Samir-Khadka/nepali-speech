@@ -1,0 +1,11 @@
+# Benchmark harness dependencies (scoring only — no model, no torch).
+# Pinned to the version the harness was developed and tested against:
+# jiwer 4.0.0 (process_words / process_characters API; compute_measures
+# was removed in jiwer 4.0, so jiwer < 4 will NOT work with evaluate.py).
+jiwer==4.0.0
+
+# Test-set builder dependencies (benchmark/build.py): fetch source
+# metadata, read FLEURS Parquet columns via HTTP Range reads, verify
+# SLR54 ZIP central directories. Installed into the project venv.
+requests==2.34.2
+pyarrow==26.0.1

@@ -1,0 +1,2 @@
+{"clip_id": "example-001", "source": "example", "speaker": "example-spk-01", "transcript": "नेपाल एक सुन्दर देश हो", "audio_path": "example-001.wav", "gender": "unknown", "region": "unknown", "quality": "clean", "duration_s": 3.0}
+{"clip_id": "example-002", "source": "example", "speaker": "example-spk-02", "transcript": "काठमाडौं नेपालको राजधानी हो", "audio_path": "example-002.wav", "gender": "unknown", "region": "unknown", "quality": "clean", "duration_s": 3.5}
