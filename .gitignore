@@ -1,0 +1,18 @@
+# root
+data/
+.venv/
+.env
+__pycache__/
+*.db
+# node
+node_modules/
+dist/
+# python
+.pytest_cache/
+*.pyc
+# audio recordings (never committed)
+*.webm
+*.ogg
+*.mp3
+*.wav
+*.m4a

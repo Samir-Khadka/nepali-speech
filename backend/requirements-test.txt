@@ -1,0 +1,4 @@
+# starlette >= 1.10 moved TestClient to httpx2 — both are REQUIRED.
+pytest==9.2.0
+httpx==0.28.1
+httpx2==2.16.2
